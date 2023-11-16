@@ -9,6 +9,10 @@ body {
   height: 100%;
 }
 
+/* body {
+  height: 1500px;
+} */
+
 p {
   /* display: inline; */
   display: inline-block;
@@ -38,4 +42,20 @@ a {
   width: 240px;
   height: 80px;
   background-color: rgb(11, 128, 0);
+}
+
+.box {
+  /* position: relative; */
+  /* position: fixed; */
+  width: 300px;
+  height: 300px;
+  background-color: blue;
+}
+
+.cube {
+  /* position: absolute; */
+  /* left: 300%; */
+  width: 30px;
+  height: 30px;
+  background-color: yellow;
 }
