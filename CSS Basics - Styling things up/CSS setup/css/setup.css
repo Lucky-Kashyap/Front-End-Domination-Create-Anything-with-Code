@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  width: 300px;
+  height: 50px;
+  background-color: cadetblue;
+  color: red;
+}
+
+.main {
+  width: 400px;
+  height: 300px;
+  background-color: rebeccapurple;
+}
