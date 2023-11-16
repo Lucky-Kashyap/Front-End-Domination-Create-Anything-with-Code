@@ -35,3 +35,55 @@ body {
   height: 50px;
   background-color: crimson;
 }
+
+/* p {
+  width: fit-content;
+  background-color: green;
+  position: relative;
+}
+p::before {
+  content: "Psuedo element ";
+  position: absolute;
+  top: 100%;
+  content: "";
+  width: 100%;
+  height: 3px;
+  background-color: red;
+}
+
+p::after {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 3px;
+  background-color: red;
+} */
+
+/* p::first-line {
+  color: red;
+}
+
+p::first-letter {
+  font-size: 40px;
+}
+
+p::selection {
+  color: green;
+} */
+
+p:hover {
+  color: chartreuse;
+}
+
+button:active {
+  background-color: coral;
+}
+input:focus {
+  background-color: cornflowerblue;
+}
+
+ul li:nth-child(2n) {
+  background-color: chocolate;
+}
