@@ -19,3 +19,23 @@ p {
 a {
   display: block;
 }
+.car1 {
+  width: 200px;
+  height: 150px;
+  background-color: purple;
+}
+.car2 {
+  /* position: absolute; */
+  /* top: 10%; */
+  /* left: 40%; */
+  width: 170px;
+  height: 120px;
+  background-color: rgb(34, 131, 155);
+}
+.car3 {
+  /* position: absolute; */
+  /* left: 30%; */
+  width: 240px;
+  height: 80px;
+  background-color: rgb(11, 128, 0);
+}
