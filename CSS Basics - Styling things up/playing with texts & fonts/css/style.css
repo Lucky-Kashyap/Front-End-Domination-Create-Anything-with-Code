@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-family: "PlayFair Display";
+  text-align: center;
+  /* text-transform: capitalize; */
+  /* text-transform: uppercase; */
+}
+p {
+  text-transform: capitalize;
+  /* text-decoration: underline; */
+  /* text-decoration: overline; */
+  /* text-decoration: line-through; */
+  line-height: 50px;
+  /* text-align: center; */
+  /* font-size: 20px; */
+  font-size: 2vw;
+  font-family: "PlayFair Display", serif;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  background-color: rebeccapurple;
+  /* padding: 40px; */
+  /* margin: 30px; */
+
+  /* short hand top right bottom left */
+  /* margin: 10px 20px 30px 44px; */
+  /* border: 3px solid yellowgreen; */
+  border: 3px double goldenrod;
+  /* border-radius: 15px; */
+  /* border-radius: 50%; */
+  border-radius: 100px;
+}
