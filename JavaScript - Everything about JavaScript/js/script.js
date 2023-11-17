@@ -28,13 +28,37 @@
 // you deal can me with
 // you can deal with me
 
-var a = 12;
+// var a = 12;
 
 // var = 2;
 
 // error check in console
 
 // inbult features
+
+// console
+// alert
+// prompt
+// confirm
+
+// console.log("Hello");
+// console.error("error");
+// console.warn("warning comes");
+
+// alert("message box");
+
+// var a = prompt("enter value");
+
+// console.log(a);
+
+var a = confirm("you are learning js.???");
+
+if (a) {
+  console.log("congrats for learning JS");
+} else {
+  console.error("You are not learning JS");
+}
+
 // variables constants
 // compilers & interpreters
 // window
