@@ -4,9 +4,20 @@
 // managed by ECMA
 // naye features, puraane hatana, kharab features shi krna
 
+// js the language = code likhna seekhna, main features
+// js the dom = code likhkar cheejein banana seekhna
+
 // js the DOM - creating
 
 // basics
+
+//  basics = file connect karenge and load karnge script ko, basics of code execution, grammar and understanding of errors
+
+var a = 12;
+var b = 22;
+
+console.log("Basics of JS");
+
 // inbult features
 // variables constants
 // compilers & interpreters
