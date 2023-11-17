@@ -28,6 +28,12 @@
 // you deal can me with
 // you can deal with me
 
+var a = 12;
+
+// var = 2;
+
+// error check in console
+
 // inbult features
 // variables constants
 // compilers & interpreters
