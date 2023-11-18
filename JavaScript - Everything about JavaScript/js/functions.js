@@ -71,3 +71,40 @@
 // c) fat arrow with implicit return
 
 // function abcd(param) {}
+
+// prep for interview
+
+// function statement
+
+// function abcd(){
+// function statement
+// }
+
+// function expression
+
+// var abcd = function(){}
+
+// anonymous function
+
+// function(){}
+
+//fat arrow
+
+// ()=>{}
+
+// var a = ()=>{};
+// var b = ()=>{};
+
+// fat arrow with one param
+
+// var c = (a)=>{console.log(a)};
+
+// fat arrow with param implicit return
+
+// var g = ab=>ab;
+
+// g(12)
+
+// var abcd = () =>34;
+
+// var ans = abcd()

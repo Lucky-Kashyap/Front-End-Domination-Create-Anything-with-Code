@@ -66,6 +66,7 @@ if (a) {
 // conditionals
 // loops
 // functions
+// return
 // arrays
 // objects
 // questions
