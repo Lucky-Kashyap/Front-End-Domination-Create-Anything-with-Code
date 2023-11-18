@@ -41,7 +41,17 @@
 var arr = [1, 2, 3, 4, 5];
 
 // var b = arr;
+
+// spread
 var b = [...arr];
 
 b.pop();
 console.log(arr, b);
+
+var ar = [12, 13, 14, 15];
+
+var gh = [1, 2, 3];
+var ba = [...gh];
+
+var c = ";";
+console.log(c);
