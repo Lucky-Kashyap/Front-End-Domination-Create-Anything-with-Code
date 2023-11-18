@@ -48,6 +48,28 @@
 
 // var heading3 = document.querySelector("h3")
 
-var heading3 = document.querySelectorAll("h3");
+// var heading3 = document.querySelectorAll("h3");
 
-console.log(heading3);
+// console.log(heading3);
+
+// Modifying elements
+
+// kisi ko bhi change krne se pehle usko select krna
+
+// var btn = document.querySelector("button");
+
+// btn.textContent = "Starting..."; // value replace
+
+// btn.textContent += "  Starting..."; // concat with button text
+
+// textContent   &  innerHTML
+
+// textContent = string ki tarah aata hai text
+
+// innerHTMl = tags dhalna chhte ho tab
+
+var h1 = document.querySelector("h1");
+
+// h1.innerHTML = "<i>Hello</i>";
+
+h1.innerHTML += "  <i>Hello</i>";
