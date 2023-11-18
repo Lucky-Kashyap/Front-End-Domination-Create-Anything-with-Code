@@ -74,8 +74,14 @@ if (a) {
 
 // prototypes
 // prototypal inheritance
-// asynchronous
+// asynchronous synchronous js
 // es6 climax
 // questions
 
 // miscellaneous - switch case and ternary do-while forin forof
+
+// interview prep
+
+// call apply bind
+// this
+// prototypal inheritance
