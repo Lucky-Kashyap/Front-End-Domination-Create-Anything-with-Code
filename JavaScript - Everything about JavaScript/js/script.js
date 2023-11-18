@@ -75,3 +75,5 @@ if (a) {
 // asynchronous
 // es6 climax
 // questions
+
+// miscellaneous - switch case and ternary do-while forin forof
