@@ -32,3 +32,16 @@
 // a lot of times the data is in the shape of more than member, to contain all data altogether, we can save it in an array
 
 // loop with array
+
+// how to loop an array and do something with each element
+
+var arr = [1, 2, 3, 4, 5, 6];
+
+// add all numbers
+// count all members
+
+// var sum = 0;
+
+// arr.forEach((el) => (sum += el));
+
+// console.log(sum);
