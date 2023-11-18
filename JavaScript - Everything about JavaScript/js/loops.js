@@ -14,6 +14,8 @@
 
 // for while forEach
 
+// foreach ek normal loop nahi hai for anad while ki tarah jo numbers pe ya start end par chalta hai,, foreach loop sirf array pe chalta hai
+
 // for (let i = 0; i < 4; i++) {
 //   console.log(i);
 // }
