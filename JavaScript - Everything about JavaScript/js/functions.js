@@ -108,3 +108,23 @@
 // var abcd = () =>34;
 
 // var ans = abcd()
+
+// return ka matlab hua, jaha par bhi return lagega uske aage jo bhi likhoge wo jaayega jaha par function call hua tha, return functions ke andar lagta hai
+
+// esa function jo kuch return nahi krta woh  bhi undefined return krta hai
+
+// function abcd() {
+//   return 12;
+// }
+
+// var res = abcd();
+
+// console.log(res);
+
+// var a = () => {
+//   return 12;
+// };
+
+// var res = a();
+
+// console.log(res);

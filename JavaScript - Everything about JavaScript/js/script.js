@@ -67,6 +67,7 @@ if (a) {
 // loops
 // functions
 // return
+// undefined not defined null
 // arrays
 // objects
 // questions
