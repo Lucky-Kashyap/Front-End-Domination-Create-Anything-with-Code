@@ -267,22 +267,42 @@
 
 // try catch
 
-function divide(a, b) {
-  // if (b == 0) {
-  // error
-  // }
+// function divide(a, b) {
+// if (b == 0) {
+// error
+// }
 
-  try {
-    if (b == 0) {
-      throw Error("koi gadbar huyi");
-    }
-    console.log(a / b);
-  } catch (e) {
-    console.log(e);
-  }
-}
+//   try {
+//     if (b == 0) {
+//       throw Error("koi gadbar huyi");
+//     }
+//     console.log(a / b);
+//   } catch (e) {
+//     console.log(e);
+//   }
+// }
 
 // const res = divide(10, 0);
-const res = divide(10, 2);
+// const res = divide(10, 2);
 
 // console.log(res);
+
+// custom events
+
+// events click dblclick mouseover input
+// chacha
+
+// how
+// make event
+// attach event to some DOM element
+// dispatch that event from that DOM element in which you attached the event
+
+const evt = new Event("chacha");
+
+document.querySelector("#play").addEventListener("chacha", () => {
+  console.log("custom events");
+});
+
+document.querySelector("#play").dispatchEvent(evt);
+
+// why
