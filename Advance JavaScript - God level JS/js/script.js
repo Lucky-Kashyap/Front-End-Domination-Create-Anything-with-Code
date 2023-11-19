@@ -240,25 +240,49 @@
 
 // arr.forEach((el) => el);
 
-function operator(callback, a, b) {
-  console.log(callback(a, b));
+// function operator(callback, a, b) {
+//   console.log(callback(a, b));
+// }
+
+// function add(a, b) {
+//   return a + b;
+// }
+// function div(a, b) {
+//   return a / b;
+// }
+// function mul(a, b) {
+//   return a * b;
+// }
+
+// function sub(a, b) {
+//   return a - b;
+// }
+
+// operator(add, 12, 13);
+// operator(mul, 12, 13);
+// operator(sub, 12, 13);
+// operator(div, 12, 13);
+
+// Error Handling
+
+// try catch
+
+function divide(a, b) {
+  // if (b == 0) {
+  // error
+  // }
+
+  try {
+    if (b == 0) {
+      throw Error("koi gadbar huyi");
+    }
+    console.log(a / b);
+  } catch (e) {
+    console.log(e);
+  }
 }
 
-function add(a, b) {
-  return a + b;
-}
-function div(a, b) {
-  return a / b;
-}
-function mul(a, b) {
-  return a * b;
-}
+// const res = divide(10, 0);
+const res = divide(10, 2);
 
-function sub(a, b) {
-  return a - b;
-}
-
-operator(add, 12, 13);
-operator(mul, 12, 13);
-operator(sub, 12, 13);
-operator(div, 12, 13);
+// console.log(res);
