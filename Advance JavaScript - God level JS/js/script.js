@@ -95,6 +95,39 @@
 //   console.log(this);
 // });
 
-document.querySelector("h1").addEventListener("click", function () {
+// document.querySelector("h1").addEventListener("click", function () {
+//   console.log(this);
+// });
+
+// call apply bind
+
+// ye teen tareeke hai function ko call karne ke kisi object ko this maan kar
+
+// function abcd() {
+//   console.log(this);
+// }
+
+// abcd();
+// const obj = { name: "lucky" };
+
+// abcd.call(obj);
+
+// function abcd(a, b, c, d) {
+//   console.log(this, a, b, c, d);
+// }
+
+// abcd();
+// const obj = { name: "lucky" };
+
+// abcd.apply(obj, [1, 2, 3, 4]);
+
+function abcd() {
   console.log(this);
-});
+}
+
+abcd();
+const obj = { name: "lucky" };
+
+const res = abcd.bind(obj);
+
+console.log(res());
