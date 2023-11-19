@@ -1,0 +1,23 @@
+Color Names : red , green
+Hexadecimal Notation : #
+RGB Functional Notation : rgb
+RGBA Functional Notation : rgba
+
+hsl
+hsla
+
+
+aisa samjha humaari screen mainly teen colors dikha sakti hai, kehne ka matlab hai screen bani khoob saari leds se and har led teen color dikha skti hai and unka combination bhi
+
+
+css mein har color ki min value 0 hai or max 255
+
+r - 255
+g - 255
+b - 255
+
+teeno full - white
+teeno low - black
+
+
+
