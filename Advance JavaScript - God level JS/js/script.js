@@ -150,24 +150,57 @@
 
 // ek function jo ki this ka upyog kar raha ho and new ke dwara nayein nayein objects bnakar deta ho ese functions ko constructor function kehte hai
 
-function makeHuman(name, age) {
-  this.name = name;
-  this.age = age;
-  // this.printMyName = function () {
-  //   console.log(this.name);
-  // };
+// function makeHuman(name, age) {
+//   this.name = name;
+//   this.age = age;
+// this.printMyName = function () {
+//   console.log(this.name);
+// };
+// }
+
+// makeHuman.prototype.printMyName = function () {
+//   console.log(this.name);
+// };
+
+// const human1 = new makeHuman("Harsh", 25);
+// const human2 = new makeHuman("Harshita", 28);
+// const human3 = new makeHuman("Lucky", 23);
+
+// console.log(human1);
+
+// human1.printMyName();
+// human2.printMyName();
+// human3.printMyName();
+
+// closures
+
+// aisa koi bhi function jo ek function ko return karde usey closure kahte hai
+
+// can we say any function which returns another function using some value of a parent function is called closure ?
+
+// ek function jo return kare doosra function, aur use kare parent function ka koi variable
+
+// function counter() {
+//   var count = 0;
+
+//   return function () {
+//     count++;
+//     console.log(count);
+//   };
+// }
+
+// const res = counter();
+
+// res();
+
+function timer() {
+  var a = 12;
+
+  return setTimeout(() => {
+    console.log(a);
+  }, 2000);
 }
 
-makeHuman.prototype.printMyName = function () {
-  console.log(this.name);
-};
+var res = timer();
 
-const human1 = new makeHuman("Harsh", 25);
-const human2 = new makeHuman("Harshita", 28);
-const human3 = new makeHuman("Lucky", 23);
-
-console.log(human1);
-
-human1.printMyName();
-human2.printMyName();
-human3.printMyName();
+console.log(res);
