@@ -1,0 +1,20 @@
+kai baar tag ko dekh kar ye nahi bataya jaa skta ki aap exactly kya banaane waale ho, is cheej ko kaafi had tak solve karta hai html5 semantics
+
+ye saare tags apne aap mein kuch nhi krte
+
+kaun si cheez kya hai
+
+
+
+nav - navigation bar
+header - pehla section of website can be called header
+aside  -  side mein usually jo fixed elements hote hai unke liyein use hota hai mainly
+main -  poori website isi mein aayegi
+footer  -   footer banaane ke liyein
+article - website ke andar jo sub elements hoge unko article mein daal sakte hia
+section  - pages of website
+audio -  audio support dene ke liyein
+video - video support dene ke liyein
+
+
+
