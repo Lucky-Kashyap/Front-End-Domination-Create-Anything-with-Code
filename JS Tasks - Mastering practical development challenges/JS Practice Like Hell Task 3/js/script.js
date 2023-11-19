@@ -29,12 +29,22 @@ form.addEventListener("submit", (e) => {
   //   headng.style.color = "";
   // }
 
-  inps.forEach((el) => {
-    if (el.value === "") {
+  // inps.forEach((el) => {
+  //   if (el.value === "") {
+  //     headng.textContent = "error in some feilds";
+  //     headng.style.color = "red";
+  //   } else {
+  //     headng.textContent = "";
+  //   }
+  // });
+
+  // console.log(inps.length);
+
+  for (var i = 0; i < inps.length; i++) {
+    if (inps[i].value.trim() === "") {
       headng.textContent = "error in some feilds";
       headng.style.color = "red";
-    } else {
-      headng.textContent = "";
+      break;
     }
-  });
+  }
 });
