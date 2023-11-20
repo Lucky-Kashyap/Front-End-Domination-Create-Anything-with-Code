@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+/* 1rem = 16px */
+
+.parent {
+  /* width: 400px; */
+  /* height: 500px; */
+  /* width: 30vw; */
+  /* height: 50vh; */
+  /* background-color: pink; */
+  font-size: 50px;
+  background-color: rosybrown;
+}
+.child {
+  /* width: 400px; */
+  /* height: 500px; */
+  /* width: 50%; */
+  /* height: 50%; */
+  width: 20vw;
+  height: 30vh;
+  background-color: saddlebrown;
+}
+
+h1 {
+  /* font-size: 10vw; */
+  /* font-size: 10vmax; */
+  /* font-size: 10vmin; */
+  /* font-size: 50px; */
+  /* font-size: 2em; */
+  font-size: 1rem;
+}
+h2 {
+  /* font-size: 40px; */
+  /* font-size: 3em; */
+  font-size: 2rem;
+}
+h3 {
+  /* font-size: 30px; */
+  /* font-size: 4em; */
+  font-size: 1.5rem;
+}
