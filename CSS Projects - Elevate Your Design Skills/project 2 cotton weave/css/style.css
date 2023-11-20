@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "gilroy";
+  /* font-family: "gilroy"; */
+  font-family: "Work Sans", sans-serif;
 }
 
 html,
@@ -14,9 +15,75 @@ body {
   height: 100%;
   width: 100%;
   /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 90px;
+  padding-top: 100px;
 }
 .left {
+  width: 48%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+}
+.left h1 {
+  font-size: 100px;
+  font-weight: 400;
+  font-family: "Work Sans", sans-serif;
+  line-height: 120px;
+}
+.color-box {
+  width: 100%;
+  /* height: 40%; */
+  margin-top: 50px;
+  /* background-color: yellow; */
+}
+.color-box .color {
+  width: fit-content;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  border: 1px solid #333;
+}
+.color-box .color h5 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+.color-box .color .color1 {
+  height: 20px;
+  width: 20px;
+  background-color: brown;
+  border-radius: 50%;
+  margin: 2px;
+}
+.color-box .color .color2 {
+  height: 20px;
+  width: 20px;
+  background-color: burlywood;
+  border-radius: 50%;
+  margin: 2px;
+}
+.left h2 {
+  margin-top: 50px;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.left p {
+  width: 70%;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: justify;
+  color: #444;
+  line-height: 30px;
+}
+.right {
   width: 40%;
   height: 100%;
-  background-color: red;
+  background-color: blue;
 }
