@@ -16,8 +16,10 @@ body {
   width: 100%;
   /* background-color: red; */
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  align-items: flex-end;
+  gap: 80px;
   padding: 0px 90px;
   padding-top: 100px;
 }
@@ -83,7 +85,63 @@ body {
   line-height: 30px;
 }
 .right {
-  width: 40%;
-  height: 100%;
-  background-color: blue;
+  width: 35%;
+  height: 90%;
+  position: relative;
+  /* background-color: blue; */
+}
+.right .right-top {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+}
+.right .right-top h4 {
+  font-size: 30px;
+  font-weight: 500;
+}
+.right .right-top h5 {
+  font-size: 16px;
+}
+.right .right-top h5 i {
+  color: gold;
+}
+
+.right img {
+  width: 100%;
+  height: 83%;
+  object-fit: cover;
+}
+
+.right .black-bag {
+  position: absolute;
+  height: 150px;
+  width: 180px;
+  background-color: rgb(26, 26, 26);
+  color: #fff;
+  border-radius: 50%;
+  right: -16%;
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 24%;
+}
+
+.right .black-bag h5 {
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.right .rotated {
+  position: absolute;
+  left: -13%;
+  /* background-color: red; */
+  bottom: 2%;
+  rotate: -90deg;
+  transform-origin: 0 0;
+  font-size: 35px;
+  font-weight: 500;
 }
