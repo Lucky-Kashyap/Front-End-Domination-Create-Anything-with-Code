@@ -28,7 +28,10 @@ img {
   /* animation-fill-mode: forwards; */
   /* animation-iteration-count: 2; */
   animation-iteration-count: infinite;
-  animation-direction: normal;
+  /* animation-direction: normal; */
+  animation-direction: alternate;
+  /* animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1); */
+  animation-timing-function: ease-in-out;
 }
 .box2 {
   width: 300px;
@@ -38,6 +41,9 @@ img {
   animation-name: move;
   animation-duration: 2s;
   animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
   /* animation-fill-mode: forwards; */
 }
 @keyframes move {
