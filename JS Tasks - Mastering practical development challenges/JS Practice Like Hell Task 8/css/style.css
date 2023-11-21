@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.main {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.main input {
+  width: 80%;
+  padding: 1vw;
+  border-radius: 11vw;
+  margin: 4vw 0;
+  /* background-color: red; */
+}
+.main input::placeholder {
+  color: grey;
+  font-size: 1vw;
+  /* text-align: center; */
+  letter-spacing: 1vw;
+}
+.main .box {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .box img {
+  width: 50%;
+}
