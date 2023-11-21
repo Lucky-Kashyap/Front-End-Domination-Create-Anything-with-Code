@@ -6,7 +6,7 @@ var word = document.querySelector(".word");
 
 var textArea = document.querySelector("textarea");
 
-textArea.addEventListener("change", () => {
+textArea.addEventListener("input", () => {
   char.textContent = textArea.value.length;
-  word.textContent = textArea.value.trim().split("").length;
+  word.textContent = textArea.value.trim().split(" ").length;
 });
