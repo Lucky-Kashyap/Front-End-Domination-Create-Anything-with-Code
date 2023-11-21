@@ -13,9 +13,22 @@ body {
   width: 400px;
   height: 400px;
   background-color: crimson;
-  animation: lucky 3s linear infinite;
+  position: absolute;
+  animation: move 3s ease-in-out infinite;
+  /* animation: lucky 3s linear infinite; */
 }
-@keyframes lucky {
+
+@keyframes move {
+  from {
+    left: 0;
+  }
+  to {
+    left: 60%;
+    rotate: 360deg;
+    background-color: blue;
+  }
+}
+/* @keyframes lucky {
   0% {
     position: absolute;
     left: 400px;
@@ -29,4 +42,4 @@ body {
   100% {
     left: 800px;
   }
-}
+} */
