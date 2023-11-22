@@ -20,7 +20,9 @@ btn.addEventListener("click", () => {
 
     list.textContent = input.value;
 
-    unorderedList.append(list, deleteBtn);
+    unorderedList.appendChild(list);
+    unorderedList.appendChild(deleteBtn);
+
     input.value = "";
 
     deleteBtn.addEventListener("click", () => {
