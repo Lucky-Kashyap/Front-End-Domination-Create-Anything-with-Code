@@ -37,21 +37,66 @@ body {
 }
 .main h1 {
   width: 70%;
-  font-size: 100px;
+  font-size: 90px;
   text-transform: uppercase;
   font-weight: 400;
   line-height: 120px;
   /* background-color: red; */
   /* margin-top: 50px; */
   margin-left: 15%;
+  position: relative;
+  z-index: 4;
 }
 
 .main h1:nth-child(2) {
-  margin-top: 100px;
+  margin-top: 60px;
 }
 .main h1:nth-child(3) {
   text-align: center;
 }
 .main h1:nth-child(4) {
   text-align: center;
+}
+img {
+  height: 420px;
+  position: absolute;
+  top: 12%;
+  left: 40%;
+  border-radius: 10px;
+}
+.img1 {
+  rotate: 10deg;
+  z-index: 2;
+}
+.img2 {
+  rotate: 20deg;
+}
+.img3 {
+  rotate: -10deg;
+}
+footer {
+  width: 98%;
+  margin: 80px 0;
+  padding-top: 30px;
+  padding-left: 26px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+footer h3 {
+  width: 20%;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+}
+footer .center {
+  width: 64%;
+  font-size: 14px;
+  /* text-align: center; */
+}
+footer .center p {
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
 }
