@@ -3,5 +3,5 @@ Start with Front-End Journey with Sheryians Coding School (Front-End Domination:
 
 ### Essentials - So you don;t fail
 
-    Embark on an insightful journey as we unravel the intricacies of our learning platform. Navigate uncertainties with proven techniques, ensuring a smooth learning experience. This video      serves as your guide, equipping you to confidently resolve doubts and make the most of your educational adventure.
+Embark on an insightful journey as we unravel the intricacies of our learning platform. Navigate uncertainties with proven techniques, ensuring a smooth learning experience. This video      serves as your guide, equipping you to confidently resolve doubts and make the most of your educational adventure.
 
