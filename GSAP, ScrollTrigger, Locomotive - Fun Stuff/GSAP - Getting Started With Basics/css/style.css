@@ -9,8 +9,24 @@ body {
   width: 100%;
   height: 100%;
 }
-.box {
+/* .box {
   width: 200px;
   height: 200px;
   background-color: pink;
+} */
+
+.box1 {
+  width: 200px;
+  height: 200px;
+  background-color: crimson;
+}
+.box2 {
+  width: 200px;
+  height: 200px;
+  background-color: palevioletred;
+}
+.box3 {
+  width: 200px;
+  height: 200px;
+  background-color: saddlebrown;
 }
