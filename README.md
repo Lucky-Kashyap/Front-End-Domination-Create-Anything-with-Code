@@ -89,6 +89,13 @@ Master the art of CSS wizardry! Delve into 'CSS Animations: Enhancing Design wit
 
 The CSS Responsive Project is a hands-on exploration of creating a responsive web project. In this introduction, you'll get an overview of what to expect in this project and the importance of making web content adaptable to various screen sizes.
 
+-Project ScreenShot:
+
+![screencapture-127-0-0-1-5500-index-html-2023-11-29-22_20_59](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/b4801c89-650c-4631-8a5b-902f1d057a75)
+
+
+
+
 -Project Design link : https://www.pinterest.ca/pin/650559108696368140/
 
 ### CSS Bonus Project
