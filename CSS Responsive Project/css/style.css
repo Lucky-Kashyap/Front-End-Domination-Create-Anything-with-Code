@@ -138,7 +138,7 @@ body {
   display: inline-block;
   padding: 2vw;
   animation-name: anime;
-  animation-duration: 8s;
+  animation-duration: 12s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
@@ -159,4 +159,43 @@ body {
   to {
     transform: translateX(-100%);
   }
+}
+.alphabet {
+  height: 11vh;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+
+.alphabet h5 {
+  font-size: 1.7vw;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 4px;
+  border-bottom: 2px solid #000000;
+  margin-right: 2vw;
+}
+
+.alphabet h6 {
+  font-size: 1vw;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 4px;
+  /* background-color: rgb(251, 255, 0); */
+  padding: 0.5vw 0.7vw;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 1px solid #00000000;
+  transition: all ease 0.2s;
+}
+
+.alphabet h6:hover {
+  border: 1px solid #000;
 }
