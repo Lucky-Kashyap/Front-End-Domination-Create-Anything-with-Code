@@ -83,7 +83,6 @@ body {
   padding: 3vw;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.154);
-  backdrop-filter: blur(1px);
 }
 
 .center .over1 {
@@ -317,4 +316,133 @@ body {
   border-radius: 50%;
   border: 1px solid #473e3e;
   background-color: transparent;
+}
+
+.page3 {
+  height: 100%;
+  width: 100%;
+  /* background-color: red; */
+  position: relative;
+  padding: 5vw 4vw;
+}
+
+.page3 > h1 {
+  text-align: center;
+  font-family: monument;
+  text-transform: uppercase;
+  font-size: 3vw;
+  /* font-weight: 900; */
+  margin-bottom: 7vh;
+}
+
+.elem {
+  height: 15.5vh;
+  width: 100%;
+  /* background-color: red; */
+  border-top: 2px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2vw;
+  position: relative;
+
+  transition: all ease 0.7s;
+}
+
+.elem img {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  border-radius: 50%;
+  left: 12%;
+  opacity: 0;
+  object-fit: cover;
+  object-position: top;
+  transition: all ease 0.7s;
+}
+
+.elem h4 {
+  font-family: monument;
+  font-size: 1.1vw;
+  text-transform: uppercase;
+  font-weight: 500;
+  width: 6%;
+  /* background-color: red; */
+}
+
+.elem .elem-part2 {
+  width: 45%;
+  /* background-color: red; */
+}
+
+.elem-part2 h1 {
+  font-size: 2.7vw;
+  font-weight: 500;
+}
+
+.elem-part2 h5 {
+  font-size: 0.8vw;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.elem:nth-last-child(1) {
+  border-bottom: 2px solid #000;
+}
+
+.elem:nth-last-child(1) img {
+  left: 40%;
+}
+
+.elem:nth-last-child(3) img {
+  left: 40%;
+}
+
+.elem:hover img {
+  opacity: 1;
+  left: 24%;
+}
+
+.marque {
+  /* height: 15vh; */
+  width: 100%;
+  /* background-color: red; */
+  padding: 0.8vw;
+  white-space: nowrap;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+
+.marque h1 {
+  display: inline-block;
+  font-size: 3vw;
+  text-transform: uppercase;
+  font-weight: 900;
+  -webkit-text-stroke: 2px black;
+  color: transparent;
+  letter-spacing: 3px;
+  font-family: monument;
+  /* background-color: blue; */
+  margin-right: 16px;
+  animation-name: move;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes move {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(calc(-100% - 20px));
+  }
+}
+
+.footer {
+  height: 10%;
+  width: 100%;
 }
