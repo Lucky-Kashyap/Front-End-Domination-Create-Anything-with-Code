@@ -88,6 +88,18 @@ The CSS Responsive Project is a hands-on exploration of creating a responsive we
 
 Use Marquee Tag for Scrolling images in horizontal or vertical direction
 
+Another way to scroll images in vertical direction : use animation for scrolling :
+
+      @keyframes anime {
+          from {
+            transform: translateX(0);
+          }
+
+          to {
+            transform: translateX(-100%);
+          }
+      }
+
 -Project ScreenShot:
 
 ![screencapture-127-0-0-1-5500-index-html-2023-11-29-22_20_59](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/b4801c89-650c-4631-8a5b-902f1d057a75)

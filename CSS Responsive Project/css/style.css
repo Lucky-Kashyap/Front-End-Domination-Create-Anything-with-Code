@@ -125,10 +125,38 @@ body {
 .center .over2 img {
   height: 3vw;
 }
-
+.scroll {
+  width: 100%;
+  height: 40vh;
+  white-space: nowrap;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.scroll .container {
+  width: 110%;
+  height: 100%;
+  display: inline-block;
+  padding: 2vw;
+  animation-name: anime;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
 .scroll .container img {
   height: 95%;
   border-radius: 50%;
   width: 15%;
   margin: 1vw;
+  object-fit: cover;
+  object-position: 30% 30%;
+}
+
+@keyframes anime {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
 }
