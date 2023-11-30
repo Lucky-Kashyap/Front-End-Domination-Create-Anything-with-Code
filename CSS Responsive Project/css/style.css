@@ -64,7 +64,7 @@ body {
 .center .content {
   height: 100%;
   width: 100%;
-  background-color: blue;
+  /* background-color: blue; */
   position: relative;
 }
 
@@ -82,6 +82,8 @@ body {
   /* background-color: red; */
   padding: 3vw;
   color: #fff;
+  background-color: rgba(0, 0, 0, 0.154);
+  backdrop-filter: blur(1px);
 }
 
 .center .over1 {
@@ -122,4 +124,11 @@ body {
 
 .center .over2 img {
   height: 3vw;
+}
+
+.scroll .container img {
+  height: 95%;
+  border-radius: 50%;
+  width: 15%;
+  margin: 1vw;
 }

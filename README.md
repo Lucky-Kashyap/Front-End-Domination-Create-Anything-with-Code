@@ -36,20 +36,17 @@ This section introduces you to practical CSS projects. You'll apply your CSS ski
 
 ![screencapture-file-D-Sheryians-FrontEnd-Domination-CSS-Projects-Elevate-Your-Design-Skills-project-1-practice-index-html-2023-11-29-21_02_51](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/fbf1ed7f-b35c-4524-8e54-a76decb61f81)
 
-
 -Source Code link : https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/tree/main/CSS%20Projects%20-%20Elevate%20Your%20Design%20Skills/Project%201
 
 -Project 2 Design link : https://pin.it/5jlUvw1
 
 ![screencapture-file-D-Sheryians-FrontEnd-Domination-CSS-Projects-Elevate-Your-Design-Skills-project-2-cotton-weave-index-html-2023-11-29-21_03_03](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/3f607285-cda4-467a-9512-5938eca2a37b)
 
-
 -Source Code link : https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/tree/main/CSS%20Projects%20-%20Elevate%20Your%20Design%20Skills/project%202%20cotton%20weave
 
 -Project 3 Design link : https://pin.it/6tU5NgO
 
 ![screencapture-file-D-Sheryians-FrontEnd-Domination-CSS-Projects-Elevate-Your-Design-Skills-project-3-trendline-index-html-2023-11-29-21_03_30](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/5ecef9b3-65ce-43e0-a691-fdd91bdc358a)
-
 
 -Source Code link : https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/tree/main/CSS%20Projects%20-%20Elevate%20Your%20Design%20Skills/project%203%20trendline
 
@@ -89,12 +86,11 @@ Master the art of CSS wizardry! Delve into 'CSS Animations: Enhancing Design wit
 
 The CSS Responsive Project is a hands-on exploration of creating a responsive web project. In this introduction, you'll get an overview of what to expect in this project and the importance of making web content adaptable to various screen sizes.
 
+Use Marquee Tag for Scrolling images in horizontal or vertical direction
+
 -Project ScreenShot:
 
 ![screencapture-127-0-0-1-5500-index-html-2023-11-29-22_20_59](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/b4801c89-650c-4631-8a5b-902f1d057a75)
-
-
-
 
 -Project Design link : https://www.pinterest.ca/pin/650559108696368140/
 
@@ -246,9 +242,6 @@ This introductory topic sets the stage for an exciting journey into advanced web
 GSAP Project :
 
 ![screencapture-file-D-Sheryians-FrontEnd-Domination-GSAP-ScrollTrigger-Locomotive-Fun-Stuff-GSAP-Project-index-html-2023-11-29-21_03_52](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/a4c285b1-90fc-4e0b-9f42-039c23e768aa)
-
-
-
 
 Include GSAP Using CDN link
 
