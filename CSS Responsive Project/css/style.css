@@ -292,3 +292,29 @@ body {
   width: 90%;
   height: 70%;
 }
+
+.full-image {
+  width: 100%;
+  height: 100%;
+  margin-top: 20vw;
+  padding: 1vw 4vw;
+  position: relative;
+}
+.full-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 30% 30%;
+}
+.full-image h5 {
+  font-size: 15px;
+  font-weight: 400;
+  padding: 1vw;
+  position: absolute;
+  top: 3vw;
+  right: 10vw;
+  color: #f8f8f8;
+  border-radius: 50%;
+  border: 1px solid #473e3e;
+  background-color: transparent;
+}
