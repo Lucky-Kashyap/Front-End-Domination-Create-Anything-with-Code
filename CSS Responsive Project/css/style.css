@@ -199,3 +199,52 @@ body {
 .alphabet h6:hover {
   border: 1px solid #000;
 }
+
+.page2 {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3vw 4vw;
+  gap: 3vw;
+}
+
+.page2 .page2-part1 {
+  width: 60%;
+  height: 100%;
+}
+
+.page2 .page2-part1 img {
+  width: 100%;
+  height: 110%;
+  object-fit: cover;
+}
+.page2 .page2-part2 {
+  width: 60%;
+  height: 100%;
+}
+.page2 .page2-part2 img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+.page2 .page2-part2 .box {
+  width: 100%;
+  height: 22%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1vw;
+}
+.page2 .page2-part2 .box h5 {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.page2 .page2-part2 .box p {
+  text-align: justify;
+  font-size: 17px;
+  line-height: 22px;
+}
