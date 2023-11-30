@@ -35,6 +35,27 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+.main .nav h1::after {
+  content: "©";
+  font-family: gilroy;
+  font-size: 22px;
+  font-weight: 300;
+  position: absolute;
+  top: 10%;
+  right: -2%;
+}
+.main .nav h1::before {
+  content: "model management";
+  font-family: gilroy;
+  font-size: 15px;
+  font-weight: 300;
+  position: absolute;
+  bottom: 5%;
+  right: 0%;
+  color: #666;
+  letter-spacing: 0.5px;
 }
 .main .nav h2 {
   width: 20%;
@@ -389,7 +410,9 @@ body {
 .elem:nth-last-child(1) {
   border-bottom: 2px solid #000;
 }
-
+.elem:hover {
+  background-color: #f1f1f1;
+}
 .elem:nth-last-child(1) img {
   left: 40%;
 }
