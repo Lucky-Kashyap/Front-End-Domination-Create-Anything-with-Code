@@ -28,6 +28,10 @@ Demystifying HTML5 Semantic Elements! Learn what they are and how to wield them 
 
 CSS, or Cascading Style Sheets, is the language used to control the presentation and layout of web pages. It allows you to define the visual style of HTML elements, including fonts, colors, spacing, and more.
 
+### CSS Grid Layout
+
+Uncover the power of layout design! Dive into 'CSS Grid: A Complete Guide to CSS Grid' and master the art of creating dynamic, responsive layouts. Explore the versatility of CSS Grid for modern web design.
+
 ### CSS Projects: Elevate Your Design Skills
 
 This section introduces you to practical CSS projects. You'll apply your CSS skills to create real-world designs and layouts. These projects will put your knowledge to the test and help you gain hands-on experience in using CSS for web development.
@@ -105,7 +109,6 @@ Another way to scroll images in vertical direction : use animation for scrolling
 ![screencapture-127-0-0-1-5500-index-html-2023-11-29-22_20_59](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/b4801c89-650c-4631-8a5b-902f1d057a75)
 
 ![screencapture-127-0-0-1-5500-2023-11-30-17_04_22](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/728751e0-bf2a-4591-acc1-e1bac209e43f)
-
 
 -Project Design link : https://www.pinterest.ca/pin/650559108696368140/
 
