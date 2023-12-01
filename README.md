@@ -108,7 +108,7 @@ Another way to scroll images in vertical direction : use animation for scrolling
 
 ![screencapture-127-0-0-1-5500-index-html-2023-11-29-22_20_59](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/b4801c89-650c-4631-8a5b-902f1d057a75)
 
-![screencapture-127-0-0-1-5500-2023-11-30-17_04_22](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/728751e0-bf2a-4591-acc1-e1bac209e43f)
+![screencapture-127-0-0-1-5500-2023-11-30-18_06_45](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/257b0a48-7fe3-4da1-9dae-7ba8e71c90fd)
 
 -Project Design link : https://www.pinterest.ca/pin/650559108696368140/
 
