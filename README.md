@@ -38,6 +38,17 @@ Create Navbar Using CSS Grid :
 
 CSS Grid: Making Project Using CSS Grid:
 
+Desktop UI:
+
+
+![screencapture-127-0-0-1-5500-index-html-2023-12-01-16_51_36](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/21b4f725-d660-4a0f-9d8e-e78a75ce0fd5)
+
+Mobile UI:
+
+![screencapture-127-0-0-1-5500-index-html-2023-12-01-16_52_16](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/9d7d8eb4-edca-443c-80a4-8111249bf75a)
+
+
+
 ### CSS Projects: Elevate Your Design Skills
 
 This section introduces you to practical CSS projects. You'll apply your CSS skills to create real-world designs and layouts. These projects will put your knowledge to the test and help you gain hands-on experience in using CSS for web development.
