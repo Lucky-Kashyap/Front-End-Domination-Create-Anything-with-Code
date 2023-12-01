@@ -32,10 +32,11 @@ CSS, or Cascading Style Sheets, is the language used to control the presentation
 
 Uncover the power of layout design! Dive into 'CSS Grid: A Complete Guide to CSS Grid' and master the art of creating dynamic, responsive layouts. Explore the versatility of CSS Grid for modern web design.
 
-Create Navbar Using CSS Grid : 
+Create Navbar Using CSS Grid :
 
 ![screencapture-127-0-0-1-5500-index-html-2023-12-01-15_25_39](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/b7253a10-5895-449b-bdca-e8237d7059a5)
 
+CSS Grid: Making Project Using CSS Grid:
 
 ### CSS Projects: Elevate Your Design Skills
 
