@@ -36,6 +36,46 @@ Create Navbar Using CSS Grid :
 
 ![screencapture-127-0-0-1-5500-index-html-2023-12-01-15_25_39](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/b7253a10-5895-449b-bdca-e8237d7059a5)
 
+Block Create Using Grid:
+
+html code :
+
+       <div class="main">
+          <div class="elem elem1"></div>
+          <div class="elem elem2"></div>
+          <div class="elem"></div>
+          <div class="elem"></div>
+          <div class="elem"></div>
+          <div class="elem"></div>
+          <!-- <div class="left"></div>
+
+          <div class="right"></div> -->
+        </div>
+
+CSS Code:
+
+    .main {
+      width: 100%;
+      height: 100%;
+      background-color: #ededed;
+      display: grid;
+      grid-template-columns: 20% 20% 20% 20% 20% 20%;
+      grid-template-rows: 20% 20% 20% 20% 20% 20%;
+    }
+    .elem {
+      border: 3px solid #000;
+      background-color: crimson;
+    }
+    .elem1 {
+      background-color: violet;
+      /* grid-column-start: 1;
+      grid-column-end: 4;
+      grid-row-start: 1;
+      grid-row-end: 3; */
+      grid-column: 1/4;
+      grid-row: 1/3;
+    }
+
 CSS Grid: Making Project Using CSS Grid:
 
 ### CSS Projects: Elevate Your Design Skills
