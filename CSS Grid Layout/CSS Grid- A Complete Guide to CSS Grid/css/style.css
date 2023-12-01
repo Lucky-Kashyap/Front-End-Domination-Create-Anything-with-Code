@@ -8,3 +8,34 @@ body {
   width: 100%;
   height: 100%;
 }
+
+.main {
+  width: 100%;
+  height: 100%;
+  background-color: lightblue;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* justify-content: center; */
+  /* gap: 10vw; */
+  /* align-items: center; */
+  display: grid;
+  /* grid-template-columns: 100px 200px 300px 400px; */
+  /* grid-template-columns: 20% 20% 20% 20% 20%; */
+  /* grid-template-rows: 50px 100px 150px 200px; */
+  /* grid-template-rows: 100px 100px 100px 100px; */
+  /* grid-template-rows: 20% 20% 20% 20% 20%; */
+
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 200px 200px;
+  justify-content: center;
+  align-content: center;
+  /* align-items: center;
+  justify-items: center; */
+  /* place-content: center; */
+}
+.elem {
+  width: 100px;
+  height: 100px;
+  background-color: crimson;
+  border: 3px solid #000;
+}
