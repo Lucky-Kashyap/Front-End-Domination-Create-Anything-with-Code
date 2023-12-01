@@ -139,9 +139,24 @@ Practice! Practice! Practice!
 
 Unlock the world of captivating web design! Dive into 'Introduction to CSS Animations' and discover the magic of breathing life into your websites. Learn the basics of CSS animations, from transitions to keyframes, and embark on a journey to create visually stunning and dynamic web experiences!
 
+Real Life Use Case :
+
+![ezgif com-video-to-gif](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/5632c18f-80a4-4ba1-ab6a-383a5c618012)
+
+
 -Before & After psuedo Selector
 
 Master the art of CSS wizardry! Delve into 'CSS Animations: Enhancing Design with ::before and ::after' to wield the power of pseudo-elements. Learn to craft captivating designs and elevate your web creations using these versatile tools in CSS animation.
+
+Bringing Websites to life:
+
+![ezgif com-video-to-gif (1)](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/979d97e9-bc8f-410d-92ab-ebf5fa145cd2)
+
+
+Learn Advanced Animation:
+
+![ezgif com-video-to-gif (2)](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/43c229ab-0a99-43c4-b814-eae43ecf26d2)
+
 
 ### CSS Responsive Project
 
