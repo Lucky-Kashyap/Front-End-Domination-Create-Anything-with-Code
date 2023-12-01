@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: gilroy;
 }
 html,
 body {
@@ -38,4 +39,19 @@ body {
   height: 100px;
   background-color: crimson;
   border: 3px solid #000;
+}
+
+.nav {
+  /* background-color: peachpuff; */
+  display: grid;
+  grid-template-columns: 50% 10% 10% 10% 10% 10%;
+  grid-template-rows: 50px;
+  align-items: center;
+  justify-items: center;
+  padding: 0 20px;
+  /* justify-content: center;
+  align-content: center; */
+}
+.nav h1 {
+  justify-self: start;
 }
