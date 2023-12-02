@@ -82,6 +82,9 @@ Desktop UI:
 
 ![screencapture-127-0-0-1-5500-index-html-2023-12-01-16_51_36](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/21b4f725-d660-4a0f-9d8e-e78a75ce0fd5)
 
+![ezgif com-video-to-gif](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/f9abcc80-2179-48ce-9be2-dae9aa71c261)
+
+
 Mobile UI:
 
 ![screencapture-127-0-0-1-5500-index-html-2023-12-01-16_52_16](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/9d7d8eb4-edca-443c-80a4-8111249bf75a)
