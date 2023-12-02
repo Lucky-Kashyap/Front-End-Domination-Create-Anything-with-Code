@@ -4,6 +4,10 @@ var btn = document.querySelector("button");
 var input = document.querySelector("input");
 var unorderedList = document.querySelector("ul");
 
+// var list = document.createElement("li");
+
+// var deleteBtn = document.createElement("button");
+
 var list;
 
 var deleteBtn;
@@ -14,6 +18,7 @@ btn.addEventListener("click", () => {
     list = document.createElement("li");
 
     deleteBtn = document.createElement("button");
+
     deleteBtn.textContent = "Delete Element";
 
     // list.textContent = input.value;
@@ -21,14 +26,20 @@ btn.addEventListener("click", () => {
     list.textContent = input.value;
 
     unorderedList.appendChild(list);
-    unorderedList.appendChild(deleteBtn);
+    list.appendChild(deleteBtn);
 
     input.value = "";
 
     deleteBtn.addEventListener("click", () => {
       // list.removeChild();
       unorderedList.removeChild(list);
-      unorderedList.removeChild(deleteBtn);
+      list.removeChild(deleteBtn);
     });
   }
 });
+
+// deleteBtn.addEventListener("click", () => {
+// list.removeChild();
+//   unorderedList.removeChild(list);
+//   list.removeChild(deleteBtn);
+// });

@@ -80,14 +80,11 @@ CSS Grid: Making Project Using CSS Grid:
 
 Desktop UI:
 
-
 ![screencapture-127-0-0-1-5500-index-html-2023-12-01-16_51_36](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/21b4f725-d660-4a0f-9d8e-e78a75ce0fd5)
 
 Mobile UI:
 
 ![screencapture-127-0-0-1-5500-index-html-2023-12-01-16_52_16](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/9d7d8eb4-edca-443c-80a4-8111249bf75a)
-
-
 
 ### CSS Projects: Elevate Your Design Skills
 
@@ -143,7 +140,6 @@ Real Life Use Case :
 
 ![ezgif com-video-to-gif](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/5632c18f-80a4-4ba1-ab6a-383a5c618012)
 
-
 -Before & After psuedo Selector
 
 Master the art of CSS wizardry! Delve into 'CSS Animations: Enhancing Design with ::before and ::after' to wield the power of pseudo-elements. Learn to craft captivating designs and elevate your web creations using these versatile tools in CSS animation.
@@ -152,11 +148,9 @@ Bringing Websites to life:
 
 ![ezgif com-video-to-gif (1)](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/979d97e9-bc8f-410d-92ab-ebf5fa145cd2)
 
-
 Learn Advanced Animation:
 
 ![ezgif com-video-to-gif (2)](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/43c229ab-0a99-43c4-b814-eae43ecf26d2)
-
 
 ### CSS Responsive Project
 
@@ -306,36 +300,29 @@ Embark on mastery! Join 'Introduction to JS Practice Like Hell Series' to dive i
 
 ![ezgif com-video-to-gif (6)](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/5a14a30c-5a5f-4e44-9cfb-0af026bbdcfa)
 
-
 2. Create a page with two images and a button. When the button is clicked, swap the source attribute of the images.
 
 ![ezgif com-video-to-gif (7)](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/8a6ca59a-f3ef-493c-971e-574116cb5820)
-
 
 3. Create a form with input fields and a submit button. Use JavaScript to validate the form and display an error message if the input is invalid.
 
 ![ezgif com-video-to-gif (8)](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/6a49bbb3-bfeb-4b4d-9949-e8af89bb0833)
 
-
 4. Create an unordered list. Allow users to add and remove list items dynamically using buttons.
 
 ![ezgif com-video-to-gif (9)](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/77378586-fb08-4223-b2eb-c14a138b8f06)
-
 
 5. Build a countdown timer that starts when a button is clicked and updates the display in real-time.
 
 ![ezgif com-video-to-gif (10)](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/b173f73f-6789-452b-b51f-5a88321f5e95)
 
-
 6. Create a tabbed interface where clicking on tabs displays different content sections without page reload.
 
 ![ezgif com-video-to-gif (11)](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/dc883b59-ec04-4158-a8ef-929c034ab7c1)
 
-
 7. Display a progress bar that updates in real-time, showing the progress of a task, download, or form submission.
 
 ![ezgif com-video-to-gif (12)](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/7cf49718-14ad-4e86-827b-23e3b7aa1686)
-
 
 8. Create a search bar that displays live search results as users type, updating the results without requiring a full page reload.
 
@@ -344,11 +331,9 @@ Embark on mastery! Join 'Introduction to JS Practice Like Hell Series' to dive i
 
 ![ezgif com-video-to-gif (13)](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/3b94d2ee-4a32-47b6-a17e-6d25ce1b1f08)
 
-
 10. Show a progress bar which shows how much page has been scrolled.
 
 ![ezgif com-video-to-gif (14)](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/7c1886ae-854d-4be6-9861-12167c56cfe8)
-
 
 ### GSAP, ScrollTrigger, Locomotive - Fun Stuff
 
@@ -358,13 +343,11 @@ This introductory topic sets the stage for an exciting journey into advanced web
 
 ![ezgif com-video-to-gif (4)](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/f1514874-1228-4dca-8415-b08200a7ff46)
 
-
 GSAP Project :
 
 ![screencapture-file-D-Sheryians-FrontEnd-Domination-GSAP-ScrollTrigger-Locomotive-Fun-Stuff-GSAP-Project-index-html-2023-11-29-21_03_52](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/a4c285b1-90fc-4e0b-9f42-039c23e768aa)
 
 ![ezgif com-video-to-gif (5)](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/c13e5f8d-7d43-4be0-9b64-2bd711dae81f)
-
 
 Include GSAP Using CDN link
 
@@ -372,11 +355,9 @@ Include GSAP Using CDN link
 
     gsap.from(".nav h3", {y: -50, opacity: 0,duration: 1,delay: 0.5,stagger: 1,});
 
+ScrollTrigger UseCase :
 
- ScrollTrigger UseCase :
-
- ![ezgif com-video-to-gif (3)](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/678b9ad9-5ca1-4ea4-a6af-20fdb5e9894e)
-
+![ezgif com-video-to-gif (3)](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/678b9ad9-5ca1-4ea4-a6af-20fdb5e9894e)
 
 ### Final Project - Obys Agency Clone
 
