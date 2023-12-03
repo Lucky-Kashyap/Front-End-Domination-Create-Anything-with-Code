@@ -141,7 +141,8 @@ Unlock the world of captivating web design! Dive into 'Introduction to CSS Anima
 
 Real Life Use Case :
 
-![ezgif com-video-to-gif](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/5632c18f-80a4-4ba1-ab6a-383a5c618012)
+![ezgif com-video-to-gif](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/83b7a9fa-9ef5-415a-ac62-558b9a55d25e)
+
 
 -Before & After psuedo Selector
 
@@ -149,11 +150,13 @@ Master the art of CSS wizardry! Delve into 'CSS Animations: Enhancing Design wit
 
 Bringing Websites to life:
 
-![ezgif com-video-to-gif (1)](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/979d97e9-bc8f-410d-92ab-ebf5fa145cd2)
+![ezgif com-video-to-gif (1)](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/a3272a30-f79e-4bce-9fe9-a51ec629061d)
+
 
 Learn Advanced Animation:
 
-![ezgif com-video-to-gif (2)](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/43c229ab-0a99-43c4-b814-eae43ecf26d2)
+![ezgif com-video-to-gif (2)](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/69d610be-0177-48d2-8afb-31aee9e68503)
+
 
 ### CSS Responsive Project
 
@@ -344,13 +347,15 @@ This introductory topic sets the stage for an exciting journey into advanced web
 
 -GSAP Basics:
 
-![ezgif com-video-to-gif (4)](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/f1514874-1228-4dca-8415-b08200a7ff46)
+![ezgif com-video-to-gif (3)](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/1ce64067-7d66-436e-a13e-3f8b30353814)
+
 
 GSAP Project :
 
 ![screencapture-file-D-Sheryians-FrontEnd-Domination-GSAP-ScrollTrigger-Locomotive-Fun-Stuff-GSAP-Project-index-html-2023-11-29-21_03_52](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/a4c285b1-90fc-4e0b-9f42-039c23e768aa)
 
-![ezgif com-video-to-gif (5)](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/c13e5f8d-7d43-4be0-9b64-2bd711dae81f)
+![ezgif com-video-to-gif (4)](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/e2262de6-02c2-4f91-a70b-dc24ffbd625c)
+
 
 Include GSAP Using CDN link
 
@@ -360,7 +365,8 @@ Include GSAP Using CDN link
 
 ScrollTrigger UseCase :
 
-![ezgif com-video-to-gif (3)](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/678b9ad9-5ca1-4ea4-a6af-20fdb5e9894e)
+![ezgif com-video-to-gif (5)](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/54f1157c-96d7-4823-aa08-98d0136237c4)
+
 
 ### Final Project - Obys Agency Clone
 
