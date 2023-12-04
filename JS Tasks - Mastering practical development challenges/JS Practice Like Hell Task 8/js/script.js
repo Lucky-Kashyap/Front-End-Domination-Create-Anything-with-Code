@@ -33,7 +33,50 @@ let data = [
   },
 ];
 
+// let data = [];
+
+// Load expenses from localStorage on page load
+// window.addEventListener("load", () => {
+//   fetch("https://fakestoreapi.com/products")
+//     .then((res) => res.json())
+//     .then((json) => data.push(json));
+
+//   setTimeout(() => {
+//     data.forEach((el) => {
+//       box1 += `<div class="box1">
+//         <div class="img">
+//           <img
+//             src=${el.image}
+//             alt="men"
+//           />
+//         </div>
+//         <h4>${el.title}</h4>
+//       </div>`;
+//     });
+//   }, 1000);
+
+//   setTimeout(() => {
+//     peopleData();
+//   }, 1000);
+// });
+
 let box1 = "";
+
+// function peopleData() {
+// data.forEach((el) => {
+//   box1 += `<div class="box1">
+//   <div class="img">
+//     <img
+//       src=${el.image}
+//       alt="men"
+//     />
+//   </div>
+//   <h4>${el.title}</h4>
+// </div>`;
+// });
+
+// box.innerHTML = box1;
+// }
 
 data.forEach((el) => {
   box1 += `<div class="box1">
@@ -57,11 +100,11 @@ input.addEventListener("input", () => {
     newUsers += `<div class="box1">
     <div class="img">
       <img
-        src=${el.src}
+        src=${el.image}
         alt="men"
       />
     </div>
-    <h4>${el.name}</h4>
+    <h4>${el.title}</h4>
   </div>`;
   });
   box.innerHTML = newUsers;
