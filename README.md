@@ -339,7 +339,8 @@ Embark on mastery! Join 'Introduction to JS Practice Like Hell Series' to dive i
 
 8. Create a search bar that displays live search results as users type, updating the results without requiring a full page reload.
 
-![ezgif com-video-to-gif (7)](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/4d7c9c68-33e3-422a-b846-47d76f16cad4)
+![ezgif com-video-to-gif](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/a8509be6-df05-44d0-be3c-403075eefd46)
+
 
    
 9. Build a character counter for a text area or input field, which updates real-time as the user types and enforces a character limit.
