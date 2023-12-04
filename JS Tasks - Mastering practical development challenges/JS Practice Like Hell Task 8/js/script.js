@@ -100,11 +100,11 @@ input.addEventListener("input", () => {
     newUsers += `<div class="box1">
     <div class="img">
       <img
-        src=${el.image}
+        src=${el.src}
         alt="men"
       />
     </div>
-    <h4>${el.title}</h4>
+    <h4>${el.name}</h4>
   </div>`;
   });
   box.innerHTML = newUsers;
