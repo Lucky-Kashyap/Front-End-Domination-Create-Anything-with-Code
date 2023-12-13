@@ -372,6 +372,11 @@ Embark on our final project—a polished clone of obys.agency, showcasing everyt
 
 Master Tailwind CSS in a single session! Dive into a comprehensive guide covering the entire spectrum of Tailwind CSS. Elevate your skills and streamline your workflow with this powerful utility-first framework.
 
+## create Landing Page Using Tailwind CSS:
+
+![Screenshot (3247)](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/ffdfb37c-1419-4a04-bf2d-9d30568de40f)
+
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.
