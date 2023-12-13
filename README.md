@@ -362,6 +362,20 @@ ScrollTrigger UseCase :
 
 ![ezgif com-video-to-gif (5)](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/54f1157c-96d7-4823-aa08-98d0136237c4)
 
+### GSAP - Understanding Pin Property in ScrollTrigger
+
+    gsap.to(".page2 img", {
+      width: "100%",
+      scrollTrigger: {
+        trigger: ".page2",
+        scroller: "body",
+        markers: true,
+        start: "top 0",
+        end: "top -100%",
+        scrub: 2,
+      },
+    });
+
 ### Final Project - Obys Agency Clone
 
 Embark on our final project—a polished clone of obys.agency, showcasing everything you've learned in the course. We've poured our hearts into making the website and videos as simple as possible, a testament to our dedication and hard work. This website isn't just visually appealing; it's a showcase of seamless design and captivating animations. Dive into six engaging videos, each offering a glimpse behind the scenes. The introduction video sets the tone, giving you a sneak peek into the inspiration. Join me in celebrating the beauty of simplicity and skill in this front-end development masterpiece! 🚀✨
@@ -375,7 +389,6 @@ Master Tailwind CSS in a single session! Dive into a comprehensive guide coverin
 ## create Landing Page Using Tailwind CSS:
 
 ![Screenshot (3247)](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/ffdfb37c-1419-4a04-bf2d-9d30568de40f)
-
 
 # FrontEnd Domination
 
