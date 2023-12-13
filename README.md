@@ -377,6 +377,11 @@ ScrollTrigger UseCase :
       },
     });
 
+Image Scrolling Effect : 
+
+![ezgif com-optimize](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/cfca78d2-5ec9-4c46-b7dd-199a9880c90d)
+
+
 - Text Scroll Effect
 
       gsap.to(".page2 h1", {
@@ -390,6 +395,11 @@ ScrollTrigger UseCase :
           end: "top -100%",
         },
       });
+
+Text Scrolling Effect :
+
+![ezgif com-video-to-gif-converted (2)](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/81800356-f7db-4712-952f-ff29ef4f5566)
+
 
 ### Final Project - Obys Agency Clone
 
