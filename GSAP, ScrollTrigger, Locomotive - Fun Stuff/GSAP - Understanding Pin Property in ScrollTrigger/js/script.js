@@ -9,5 +9,6 @@ gsap.to(".page2 img", {
     start: "top 0",
     end: "top -100%",
     scrub: 2,
+    pin: true,
   },
 });
