@@ -580,6 +580,9 @@ Unlock GSAP's Potential: Delve into the 'Bonus Project' and explore the extra di
 
 Text Effect on Scroll :
 
+![ezgif com-video-to-gif-converted (5)](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/536a9603-6e77-49c8-9071-bdd41fc21624)
+
+
 ### Final Project - Obys Agency Clone
 
 Embark on our final project—a polished clone of obys.agency, showcasing everything you've learned in the course. We've poured our hearts into making the website and videos as simple as possible, a testament to our dedication and hard work. This website isn't just visually appealing; it's a showcase of seamless design and captivating animations. Dive into six engaging videos, each offering a glimpse behind the scenes. The introduction video sets the tone, giving you a sneak peek into the inspiration. Join me in celebrating the beauty of simplicity and skill in this front-end development masterpiece! 🚀✨
