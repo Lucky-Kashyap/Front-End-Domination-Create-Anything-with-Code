@@ -377,6 +377,11 @@ ScrollTrigger UseCase :
       },
     });
 
+Project ShowCase :
+
+![ezgif com-optimize](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/a07de365-5e8c-421d-9cf4-5cb715a559aa)
+
+
 - Text Scroll Effect
 
       gsap.to(".page2 h1", {
@@ -390,6 +395,12 @@ ScrollTrigger UseCase :
           end: "top -100%",
         },
       });
+
+Project ShowCase:
+
+![ezgif com-video-to-gif-converted (2)](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/8d0a1dc2-1241-463a-9b03-827bd7b2aa56)
+
+  
 
 ### Locomotive- All in One Video
 
