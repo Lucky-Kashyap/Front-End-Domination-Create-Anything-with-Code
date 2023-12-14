@@ -461,6 +461,12 @@ Include CDN Links :
 
 - To Apply Locomotive Don't give width & height to wrapper/container
 
+- Locomotive Smooth Scrolling :
+
+![ezgif com-video-to-gif-converted (4)](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/7c0f1ee0-1624-4bc0-96f5-0aa51970b4a3)
+
+
+
 - To use scrolltrigger with locomotive you need include some JS Code
 
       gsap.registerPlugin(ScrollTrigger);
@@ -523,7 +529,11 @@ Include CDN Links :
         },
       });
 
-Locomotive Smooth Scrolling :
+
+Use Locomotive & GSAP ScrollTrigger Both:
+
+![ezgif com-video-to-gif-converted (3)](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/ead1266b-a0c0-4c81-8f9e-f50678b1f24b)
+
 
 ### Final Project - Obys Agency Clone
 
