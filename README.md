@@ -391,6 +391,10 @@ ScrollTrigger UseCase :
         },
       });
 
+### Locomotive- All in One Video
+
+- Learning Smooth Scrolling Effects
+
 ### Final Project - Obys Agency Clone
 
 Embark on our final project—a polished clone of obys.agency, showcasing everything you've learned in the course. We've poured our hearts into making the website and videos as simple as possible, a testament to our dedication and hard work. This website isn't just visually appealing; it's a showcase of seamless design and captivating animations. Dive into six engaging videos, each offering a glimpse behind the scenes. The introduction video sets the tone, giving you a sneak peek into the inspiration. Join me in celebrating the beauty of simplicity and skill in this front-end development masterpiece! 🚀✨
