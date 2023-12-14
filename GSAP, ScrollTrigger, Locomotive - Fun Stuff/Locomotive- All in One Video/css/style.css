@@ -13,11 +13,17 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: rgb(80, 207, 229);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .page2 {
   width: 100vw;
   height: 100vh;
   background-color: rgb(114, 217, 235);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .page2 .image {
   width: 40%;
@@ -37,4 +43,12 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: rgb(80, 182, 229);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  width: 300px;
+  height: 300px;
+  background-color: palegoldenrod;
 }

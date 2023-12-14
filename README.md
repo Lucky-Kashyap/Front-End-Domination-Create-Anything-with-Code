@@ -431,6 +431,100 @@ Project ShowCase:
 
 - It applies smooth scrolling
 
+### GSAP, ScrollTrigger, Locomotive Configure
+
+Include CDN Links :
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"
+      defer
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js"
+      integrity="sha512-7Au1ULjlT8PP1Ygs6mDZh9NuQD0A5prSrAUiPHMXpU6g3UMd8qesVnhug5X4RoDr35x5upNpx0A6Sisz1LSTXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      defer
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/ScrollTrigger.min.js"
+      integrity="sha512-LQQDtPAueBcmGXKdOBcMkrhrtqM7xR2bVrnMtYZ8ImAZhFlIb5xrMqQ6uZviyeSB+4mYj89ta8niiCIQM1Gj0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      defer
+    ></script>
+
+- To Apply Locomotive Don't give width & height to wrapper/container
+
+- To use scrolltrigger with locomotive you need include some JS Code
+
+      gsap.registerPlugin(ScrollTrigger);
+
+      // Using Locomotive Scroll from Locomotive https://github.com/locomotivemtl/locomotive-scroll
+
+      const locoScroll = new LocomotiveScroll({
+        el: document.querySelector(".main"),
+        smooth: true,
+      });
+      // each time Locomotive Scroll updates, tell ScrollTrigger to update too (sync positioning)
+      locoScroll.on("scroll", ScrollTrigger.update);
+
+      // tell ScrollTrigger to use these proxy methods for the ".main" element since Locomotive Scroll is hijacking things
+      ScrollTrigger.scrollerProxy(".main", {
+        scrollTop(value) {
+          return arguments.length
+            ? locoScroll.scrollTo(value, 0, 0)
+            : locoScroll.scroll.instance.scroll.y;
+        }, // we don't have to define a scrollLeft because we're only scrolling vertically.
+        getBoundingClientRect() {
+          return {
+            top: 0,
+            left: 0,
+            width: window.innerWidth,
+            height: window.innerHeight,
+          };
+        },
+        // LocomotiveScroll handles things completely differently on mobile devices - it doesn't even transform the container at all! So to get the correct behavior and avoid jitters, we should pin things with position: fixed on mobile. We sense it by checking to see if there's a transform applied to the container (the LocomotiveScroll-controlled element).
+        pinType: document.querySelector(".main").style.transform
+          ? "transform"
+          : "fixed",
+      });
+
+      // each time the window updates, we should refresh ScrollTrigger and then update LocomotiveScroll.
+      ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
+
+      // after everything is set up, refresh() ScrollTrigger and update LocomotiveScroll because padding may have been added for pinning, etc.
+      ScrollTrigger.refresh();
+
+      gsap.from(".page1 .box", {
+        scale: 0,
+        duration: 1,
+        delay: 1,
+        opacity: 0,
+        rotate: 360,
+      });
+
+      gsap.from(".page2 .box", {
+        scale: 0,
+        duration: 1,
+        // delay: 1,
+        opacity: 0,
+        rotate: 360,
+        scrollTrigger: {
+          trigger: ".page2 .box",
+          scroller: ".main",
+          start: "top 50%",
+          markers: true,
+        },
+      });
+
+Locomotive Smooth Scrolling :
+
 ### Final Project - Obys Agency Clone
 
 Embark on our final project—a polished clone of obys.agency, showcasing everything you've learned in the course. We've poured our hearts into making the website and videos as simple as possible, a testament to our dedication and hard work. This website isn't just visually appealing; it's a showcase of seamless design and captivating animations. Dive into six engaging videos, each offering a glimpse behind the scenes. The introduction video sets the tone, giving you a sneak peek into the inspiration. Join me in celebrating the beauty of simplicity and skill in this front-end development masterpiece! 🚀✨
