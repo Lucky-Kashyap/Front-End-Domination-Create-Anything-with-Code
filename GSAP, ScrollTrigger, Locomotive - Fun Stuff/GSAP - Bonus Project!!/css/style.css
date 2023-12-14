@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.page1 {
+  width: 100%;
+  height: 100vh;
+  background-color: #e3e3c4;
+}
+.page2 {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #556043;
+  padding: 5vw;
+}
+.page2 h1 {
+  color: #434b43;
+  font-size: 4.5vw;
+  font-weight: 500;
+  text-align: center;
+  line-height: 4.8vw;
+}
+.page3 {
+  width: 100%;
+  height: 100vh;
+  background-color: #e3e3c4;
+}

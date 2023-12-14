@@ -465,8 +465,6 @@ Include CDN Links :
 
 ![ezgif com-video-to-gif-converted (4)](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/7c0f1ee0-1624-4bc0-96f5-0aa51970b4a3)
 
-
-
 - To use scrolltrigger with locomotive you need include some JS Code
 
       gsap.registerPlugin(ScrollTrigger);
@@ -529,11 +527,58 @@ Include CDN Links :
         },
       });
 
-
 Use Locomotive & GSAP ScrollTrigger Both:
 
 ![ezgif com-video-to-gif-converted (3)](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/ead1266b-a0c0-4c81-8f9e-f50678b1f24b)
 
+### GSAP: Bonus Project!!
+
+Unlock GSAP's Potential: Delve into the 'Bonus Project' and explore the extra dimensions of GSAP. Unleash creativity and mastery as you apply advanced techniques to create captivating animations and interactions.
+
+- Text Scrolling Effect From (Hotel Odesej Website) [[https://hotelodisej.com/]]
+- Apply Smooth Scrolling
+
+      // function to split text
+
+      let headings = document.querySelectorAll(".page2 h1");
+
+      function textSplitting() {
+        headings.forEach((elem) => {
+          let clutter = "";
+          let h1Text = elem.textContent;
+
+          let splitedText = h1Text.split("");
+
+          splitedText.forEach((e) => {
+            clutter += `<span>${e}</span>`;
+          });
+          // console.log(h1Text);
+
+          elem.innerHTML = clutter;
+
+          // console.log(elem);
+        });
+      }
+
+- Apply GSAP, ScrollTrigger & Locomotive
+
+      function gsapAnimation() {
+        gsap.to(".page2 h1 span", {
+          color: "#e3e3c4",
+          stagger: 0.1,
+          // opacity: 0.5,
+          scrollTrigger: {
+            trigger: ".page2 h1",
+            scroller: ".main",
+            markers: true,
+            start: "top 50%",
+            end: "top -15%",
+            scrub: 3,
+          },
+        });
+      }
+
+Text Effect on Scroll :
 
 ### Final Project - Obys Agency Clone
 
