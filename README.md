@@ -381,7 +381,6 @@ Project ShowCase :
 
 ![ezgif com-optimize](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/a07de365-5e8c-421d-9cf4-5cb715a559aa)
 
-
 - Text Scroll Effect
 
       gsap.to(".page2 h1", {
@@ -400,11 +399,37 @@ Project ShowCase:
 
 ![ezgif com-video-to-gif-converted (2)](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/8d0a1dc2-1241-463a-9b03-827bd7b2aa56)
 
-  
-
 ### Locomotive- All in One Video
 
 - Learning Smooth Scrolling Effects
+- Include CDN links to index.html file
+
+      // CSS file
+
+      <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+        />
+
+      // locomotive JS File
+
+      <script
+        src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"
+        defer
+      ></script>
+
+- In script.js file :
+
+      // locomotive scrolling
+
+      import LocomotiveScroll from "locomotive-scroll";
+
+      const scroll = new LocomotiveScroll({
+        el: document.querySelector(".main"),
+        smooth: true,
+      });
+
+- It applies smooth scrolling
 
 ### Final Project - Obys Agency Clone
 
