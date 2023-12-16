@@ -653,6 +653,42 @@ Download :
       npm i
       npm run dev
 
+#### Understanding JSX
+
+- jsx -> jsx is actually a very similar looking structure like HTMl but with super powers
+
+- jsx sirf dikhta hai HTML ki trah par hota nhi
+
+- It converted into React.createElement
+
+- jsx is very similar to HTML but with superpowers
+
+- conversion to javascript
+
+      <h1>{login ? 'profile':'login'}</h1>
+
+
+      <h1>Hey  {2 + 2}</h1>
+
+      // output Hey 4
+
+#### Making App
+
+- Component
+
+- React "react" when changes occurs
+
+        function App(){
+
+          return (
+            <div>
+            <h1>App Component</h1>
+            </div>
+          )
+        }
+
+- Component is a reusable code
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.
