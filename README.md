@@ -582,7 +582,6 @@ Text Effect on Scroll :
 
 ![ezgif com-video-to-gif-converted (5)](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/536a9603-6e77-49c8-9071-bdd41fc21624)
 
-
 ### Final Project - Obys Agency Clone
 
 Embark on our final project—a polished clone of obys.agency, showcasing everything you've learned in the course. We've poured our hearts into making the website and videos as simple as possible, a testament to our dedication and hard work. This website isn't just visually appealing; it's a showcase of seamless design and captivating animations. Dive into six engaging videos, each offering a glimpse behind the scenes. The introduction video sets the tone, giving you a sneak peek into the inspiration. Join me in celebrating the beauty of simplicity and skill in this front-end development masterpiece! 🚀✨
@@ -596,6 +595,28 @@ Master Tailwind CSS in a single session! Dive into a comprehensive guide coverin
 ## create Landing Page Using Tailwind CSS:
 
 ![Screenshot (3247)](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/ffdfb37c-1419-4a04-bf2d-9d30568de40f)
+
+# React JS
+
+- JavaScript Library for creating user interfaces.
+
+### Introduction To React JS
+
+Embark on the React JS journey! Discover the essentials in 'Introduction to React JS'. Uncover the basics and get started with this popular JavaScript library for building user interfaces.
+
+- UI Library
+- for solving the real time problem (facebook build this cool library)
+- for notification update on real time basically (2013).
+
+### React JS Theory & History
+
+Understanding React JS: Delve into its theory and historical roots. Explore the foundational aspects and historical development of React JS
+
+- react -> lang X
+- react -> framework X
+- react -> technology X
+
+- react -> library
 
 # FrontEnd Domination
 
