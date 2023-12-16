@@ -618,6 +618,23 @@ Understanding React JS: Delve into its theory and historical roots. Explore the 
 
 - react -> library
 
+- facebook - 2013
+
+- 2015 - open source
+
+#### Virtual DOM
+
+- Copy of real DOM
+
+jab websites par khhob sare change hote hai to khoob saara repaint hota hai wo bhi wo elements jo badle bhi nahi, aur ye website ko slow down kar deta hai, is cheej se bhi bachne ke liyein facebook ne react create ki gyi
+
+- likes count, notification count side by side (change/update)
+
+- when ever there is change in UI the DOM repaint or rerender things
+- This is not the case with virtual DOM or with React. React solves this problem of not repaint Those part which was not updated or changed only re render things which are updated.
+
+### Section 1: System Setup and Basics
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.
