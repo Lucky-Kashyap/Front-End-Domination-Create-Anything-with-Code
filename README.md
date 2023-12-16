@@ -806,6 +806,19 @@ Download :
           setScore(score + 1);
        };
 
+- Based on Previous Value
+
+      onClick={() => setVal((prev) => prev + 1)}
+
+- Use object data in useState
+
+        const [data,setData] = useState({name:'Lucky',isBanned:false});
+
+
+        onClick={() => setData({ name: "Divyanshu", isBanned: true })}
+
+        onClick={() => setData({ ...data, isBanned: !data.isBanned })}
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.
