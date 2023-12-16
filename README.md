@@ -763,6 +763,29 @@ Download :
 
         </React.Fragment>
 
+### Section 4: Conditional Rendering
+
+- Instock Check
+
+      {item.inStock ? "InStock" : "Out Of Stock"}
+
+- Handling Events:
+
+        <button
+            onClick={() => console.log("download song")}
+          >
+            Download Now
+          </button>
+
+
+
+            // seperatae function
+
+           const handleClick = () => {
+
+  console.log("mouse over event");
+  };
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.
