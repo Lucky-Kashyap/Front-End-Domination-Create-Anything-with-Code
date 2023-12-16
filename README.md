@@ -726,6 +726,19 @@ Download :
 
 - Creating Card Component
 
+### Section 3: Reusable Components
+
+- Use Array map method.
+
+        const data = ["ajay", "rahul", "sachin", "udesh"];
+
+
+        {data.map((item, index) => (
+        <h1 key={index}>{item}</h1>
+      ))}
+
+- Showing Card With Data
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.
