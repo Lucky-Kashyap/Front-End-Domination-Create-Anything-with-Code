@@ -689,6 +689,39 @@ Download :
 
 - Component is a reusable code
 
+### Section 2: Building Components
+
+- Header
+
+      import React from "react";
+
+        const Header = () => {
+          return (
+            <div>
+              <h1>Header</h1>
+              <ul>
+                <li>
+                  <a href="#">Home</a>
+                </li>
+                <li>
+                  <a href="#">Contact</a>
+                </li>
+                <li>
+                  <a href="#">Skills</a>
+                </li>
+                <li>
+                  <a href="#">About</a>
+                </li>
+                <li>
+                  <a href="#">Services</a>
+                </li>
+              </ul>
+            </div>
+          );
+        };
+
+        export default Header;
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.
