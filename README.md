@@ -786,6 +786,26 @@ Download :
   console.log("mouse over event");
   };
 
+### Section 5: Managing State and Understanding the State Hook
+
+- state variable takes care of react updation
+
+- It will take care of react changes
+
+- state ek data hota hai, react is data ka khayaal rkhta hai, jab bhi ye data change hota hai react page ko update karta hai
+
+- state koi bhi data ho skta hai, jaise ki score = 0
+
+      const [score,setScore] = useState(0);
+
+
+      // onClick par apply krdo
+
+       const handleScore = () => {
+
+          setScore(score + 1);
+       };
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.
