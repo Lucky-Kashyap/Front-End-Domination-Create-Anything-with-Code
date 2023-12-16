@@ -635,6 +635,24 @@ jab websites par khhob sare change hote hai to khoob saara repaint hota hai wo b
 
 ### Section 1: System Setup and Basics
 
+Extensions:
+
+- tabnine
+- prettier
+
+Download :
+
+- node js
+- use vite vs create react app
+
+      npm create vite@latest
+
+      vite project : setup
+
+      cd setup
+      npm i
+      npm run dev
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.
