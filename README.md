@@ -722,6 +722,10 @@ Download :
 
         export default Header;
 
+- Configure Tailwind CSS
+
+- Creating Card Component
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.
