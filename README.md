@@ -739,6 +739,30 @@ Download :
 
 - Showing Card With Data
 
+- Create Array of data
+
+      const data = [
+        {
+          image:'',
+          name:'',
+          desc:''
+        }
+      ]
+
+- and use map method to use different data with card.
+
+#### React Fragments
+
+- unnecessary div creation stop
+- Enclosed all elements in one wrapper without creating div or other element use React Fragment
+
+          <>
+          </>
+
+        <React.Fragment>
+
+        </React.Fragment>
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.
