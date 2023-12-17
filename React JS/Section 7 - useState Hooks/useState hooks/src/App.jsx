@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import Card from "./components/Card";
+import SomeThing from "./components/SomeThing";
 
 function App() {
   // const [val, setVal] = useState({ name: "lucky", isBanned: false });
@@ -14,7 +15,7 @@ function App() {
   // ]);
 
   return (
-    <div className="p-4">
+    <div>
       {/* <h1>Name : {val.name}</h1>
       <h2>Banned : {val.isBanned.toString()}</h2>
       <button
@@ -67,7 +68,8 @@ function App() {
         Change
       </button> */}
 
-      <Card />
+      {/* <Card /> */}
+      <SomeThing />
     </div>
   );
 }
