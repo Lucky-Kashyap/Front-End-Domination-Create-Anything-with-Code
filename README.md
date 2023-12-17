@@ -821,6 +821,30 @@ Download :
 
 #### Section 6 : Mastering the useState() hook
 
+- useState not update synchronously
+
+- add object property to useState
+
+- useState state ko turant update nahi karta, wo useState state ko update karta hai apne hisaab se function completion ke baad to fix performance issue
+
+      const [val, setVal] = useState({ name: "lucky",age: 23 });
+
+      <h1>Name : {val.name}</h1>
+      <h2>Age : {val.age}</h2>
+      <h3>Role : {val.gender}</h3>
+
+      <button
+        className="px-3 py-1 mt-3 bg-red-500 text-md rounded-full"
+        onClick={() => {setVal({ ...val, gender: "Male" })
+
+        console.log(val);
+        }
+
+        }
+      >
+        Click
+      </button>
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.
