@@ -955,6 +955,18 @@ Download :
           });
         };
 
+- Dynamic class change
+
+        <button
+          onClick={() => handleFriendsBtn(index)}
+          className={`px-3 mt-4 py-1 text-sm text-white ${
+            friends ? "bg-green-600" : "bg-blue-500"
+          } font-semibold rounded-md`}
+        >
+          {friends ? "Add Friend" : "Friend"}
+          {/* {friends ? "ADD FRIEND" : "Friends"} */}
+        </button>
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.

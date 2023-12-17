@@ -17,7 +17,9 @@ const PassData = ({ values, handleFriendsBtn, index }) => {
         <h5 className="text-sm">{profession}</h5>
         <button
           onClick={() => handleFriendsBtn(index)}
-          className="px-3 mt-4 py-1 text-sm text-white bg-blue-500 font-semibold rounded-md"
+          className={`px-3 mt-4 py-1 text-sm text-white ${
+            friends ? "bg-green-600" : "bg-blue-500"
+          } font-semibold rounded-md`}
         >
           {friends ? "Add Friend" : "Friend"}
           {/* {friends ? "ADD FRIEND" : "Friends"} */}
