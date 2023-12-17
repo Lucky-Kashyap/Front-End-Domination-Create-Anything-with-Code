@@ -3,7 +3,9 @@ import "./App.css";
 
 function App() {
   // const [val, setVal] = useState({ name: "lucky", isBanned: false });
-  const [val, setVal] = useState({ name: "lucky", age: 23 });
+  // const [val, setVal] = useState({ name: "lucky", age: 23 });
+
+  const [val, setVal] = useState([1, 2, 3, 4, 5, 6]);
 
   return (
     <div className="p-4">
@@ -18,7 +20,7 @@ function App() {
         Change Button
       </button> */}
 
-      <h1>Name : {val.name}</h1>
+      {/* <h1>Name : {val.name}</h1>
       <h2>Age : {val.age}</h2>
       <h3>Role : {val.gender}</h3>
 
@@ -27,6 +29,25 @@ function App() {
         onClick={() => setVal({ ...val, gender: "Male" })}
       >
         Click
+      </button> */}
+
+      {val.map((item, index) => (
+        <h1 key={index}>{item}</h1>
+      ))}
+
+      <button
+        onClick={() =>
+          setVal(() => val.filter((item, index) => item % 2 !== 0))
+        }
+        // onClick={() => setVal(() => val.filter((item, index) => index != 2))}
+        // onClick={() =>
+        //   setVal(() => {
+        //     return val.filter((item, index) => index != val.length - 1);
+        //   })
+        // }
+        className="px-3 py-1 text-md bg-blue-500 rounded-full text-white"
+      >
+        Change
       </button>
     </div>
   );

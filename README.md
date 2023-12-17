@@ -845,6 +845,30 @@ Download :
         Click
       </button>
 
+- Use Array in useState
+
+      {val.map((item, index) => (
+        <h1 key={index}>{item}</h1>
+      ))}
+
+      <button
+        onClick={() => setVal(() => val.filter((item, index) => index != 2))}
+        // onClick={() =>
+        //   setVal(() => {
+        //     return val.filter((item, index) => index != val.length - 1);
+        //   })
+        // }
+        className="px-3 py-1 text-md bg-blue-500 rounded-full text-white"
+      >
+        Change
+      </button>
+
+- Remove even values from an Array
+
+      onClick={() =>
+          setVal(() => val.filter((item, index) => item % 2 !== 0))
+        }
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.
