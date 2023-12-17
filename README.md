@@ -927,6 +927,21 @@ Download :
         </span>
       </div>
 
+#### Section 8 : Passing Data via Props
+
+- Pass Data via prop
+
+- props use hote hai aapke components ko reuable bnane ke liyein consider karo aapke pass ek button hai and aapko us button ko alag alag jagah daalna hai app mein, to aap ek button ek mein baaneyin aur uska data hard coded karne ki jagah parent component se send karde and child component par use kar le
+
+      <Props btn={"Know More"} color="bg-blue-600" />
+      <Props btn={"Learn More"} color="bg-red-600" />
+
+      <button
+        className={`px-3 py-1 ${color} text-zinc-100 text-xs rounded m-2`}
+      >
+        {btn}
+      </button>
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.
