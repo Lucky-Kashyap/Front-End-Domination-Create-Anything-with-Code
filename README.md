@@ -971,6 +971,36 @@ Download :
 
 - Create card add build feature Add To favourites
 
+         const [song, setSong] = useState(data);
+         const [favouritesCount, setFavouritesCount] = useState(0);
+
+          const handleFavourites = (index) => {
+            setSong((prev) => {
+              return prev.map((item, indx) => {
+                if (indx === index) {
+                  return { ...item, favourites: !item.favourites };
+                }
+
+                return item;
+              });
+            });
+
+            setFavouritesCount((prev) => prev + 1);
+          };
+
+       <div className="p-10">
+      <Header
+        favouritesCount={favouritesCount}
+        setFavouritesCount={setFavouritesCount}
+      />
+      <div className="w-full h-52 flex gap-20 flex-wrap mt-10 justify-between">
+        {song.map((item, indx) => (
+          <Card song={item} handleFavourites={handleFavourites} index={indx} />
+        ))}
+      </div>
+
+    </div>
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.

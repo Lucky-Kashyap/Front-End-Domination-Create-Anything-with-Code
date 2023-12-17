@@ -1,22 +1,27 @@
 import React, { useState } from "react";
 
-const Card = () => {
-  const [data, setData] = useState(false);
+const Card = ({ song, handleFavourites, index }) => {
+  const { songName, artistName, image, favourites } = song;
 
   return (
-    <div>
-      <h2>{data.toString()}</h2>
+    <div className="w-52">
+      <div className="w-52  flex mx-2 my-2">
+        <img className="w-16 h-full object-cover rounded" src={image} alt="" />
 
-      {/* print bahar jaao if val is false and print mat jao iv val is true */}
-
-      <p>{data === false ? "BAHAR JAO" : "MAT JAO"}</p>
-
+        <div className="w-full mx-10">
+          <h3 className="text-grey text-sm font-semibold">Song: {songName}</h3>
+          <h5 className="text-grey text-xs my-2 font-semibold">
+            Artist Name: {artistName}
+          </h5>
+        </div>
+      </div>
       <button
-        // onClick={() => setData(!data)}
-        onClick={() => setData(() => !data)}
-        className="px-3 py-1 bg-sky-500 text-md rounded-full"
+        onClick={() => handleFavourites(index)}
+        className={`px-3 py-3 ${
+          favourites ? "bg-sky-900" : "bg-orange-600"
+        } font-semibold text-xs mx-4 rounded-md text-white`}
       >
-        Change Data
+        {favourites ? "Add To favourites" : "Remove From Favourites"}
       </button>
     </div>
   );
