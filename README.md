@@ -890,6 +890,12 @@ Download :
           )
         }
 
+#### Section 7 : useState() Hooks
+
+- Solve small-small questions
+
+        <p>{data === false ? "BAHAR JAO" : "MAT JAO"}</p>
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.
