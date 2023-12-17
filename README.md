@@ -942,6 +942,19 @@ Download :
         {btn}
       </button>
 
+- Array of object change via props functions
+
+       const handleFriendsBtn = (index) => {
+          setRealData((prev) => {
+            return prev.map((item, ind) => {
+              if (ind === index) {
+                return { ...item, friends: !item.friends };
+              }
+              return item;
+            });
+          });
+        };
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.
