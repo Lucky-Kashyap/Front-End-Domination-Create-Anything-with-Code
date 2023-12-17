@@ -967,6 +967,10 @@ Download :
           {/* {friends ? "ADD FRIEND" : "Friends"} */}
         </button>
 
+#### Section 9 : Props and State Exercise
+
+- Create card add build feature Add To favourites
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.
