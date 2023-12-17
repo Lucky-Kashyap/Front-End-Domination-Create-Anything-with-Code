@@ -819,6 +819,8 @@ Download :
 
         onClick={() => setData({ ...data, isBanned: !data.isBanned })}
 
+#### Section 6 : Mastering the useState() hook
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.
