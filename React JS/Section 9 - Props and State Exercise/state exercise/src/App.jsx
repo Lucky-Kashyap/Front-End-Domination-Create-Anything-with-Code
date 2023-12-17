@@ -2,6 +2,8 @@ import { useState } from "react";
 import "./App.css";
 import Card from "./components/Card";
 import Header from "./components/Header";
+import Song from "./components/Song";
+import Navbar from "./components/Navbar";
 
 function App() {
   const data = [
@@ -52,35 +54,51 @@ function App() {
     },
   ];
 
-  const [song, setSong] = useState(data);
-  const [favouritesCount, setFavouritesCount] = useState(0);
+  // const [song, setSong] = useState(data);
+  // const [favouritesCount, setFavouritesCount] = useState(0);
 
-  const handleFavourites = (index) => {
-    setSong((prev) => {
-      return prev.map((item, indx) => {
-        if (indx === index) {
-          return { ...item, favourites: !item.favourites };
-        }
+  // const handleFavourites = (index) => {
+  //   setSong((prev) => {
+  //     return prev.map((item, indx) => {
+  //       if (indx === index) {
+  //         return { ...item, favourites: !item.favourites };
+  //       }
 
-        return item;
-      });
-    });
+  //       return item;
+  //     });
+  //   });
 
-    setFavouritesCount((prev) => prev + 1);
-  };
+  //   setFavouritesCount((prev) => prev + 1);
+  // };
 
   return (
-    <div className="p-10">
-      <Header
-        favouritesCount={favouritesCount}
-        setFavouritesCount={setFavouritesCount}
-      />
-      <div className="w-full h-52 flex gap-20 flex-wrap mt-10 justify-between">
-        {song.map((item, indx) => (
-          <Card song={item} handleFavourites={handleFavourites} index={indx} />
-        ))}
+    // <div className="p-10">
+    //   <Header
+    //     favouritesCount={favouritesCount}
+    //     setFavouritesCount={setFavouritesCount}
+    //   />
+    //   <div className="w-full h-52 flex gap-20 flex-wrap mt-10 justify-between">
+    //     {song.map((item, indx) => (
+    //       <Card song={item} handleFavourites={handleFavourites} index={indx} />
+    //     ))}
+    //   </div>
+    // </div>
+
+    <>
+      <div className="w-full h-screen bg-zinc-300">
+        <Navbar />
+        <div className="px-20 flex flex-wrap gap-10 mt-10">
+          <Song />
+          <Song />
+          <Song />
+          <Song />
+          <Song />
+          <Song />
+          <Song />
+          <Song />
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 
