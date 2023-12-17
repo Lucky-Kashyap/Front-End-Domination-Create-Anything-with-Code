@@ -5,7 +5,12 @@ function App() {
   // const [val, setVal] = useState({ name: "lucky", isBanned: false });
   // const [val, setVal] = useState({ name: "lucky", age: 23 });
 
-  const [val, setVal] = useState([1, 2, 3, 4, 5, 6]);
+  // const [val, setVal] = useState([1, 2, 3, 4, 5, 6]);
+  const [val, setVal] = useState([
+    { name: "lucky", age: 23 },
+    { name: "Shivam", age: 34 },
+    { name: "golu", age: 25 },
+  ]);
 
   return (
     <div className="p-4">
@@ -32,13 +37,24 @@ function App() {
       </button> */}
 
       {val.map((item, index) => (
-        <h1 key={index}>{item}</h1>
+        <>
+          <h1 key={index}>Name : {item.name}</h1>
+          <p>Age : {item.age}</p>
+        </>
       ))}
 
       <button
         onClick={() =>
-          setVal(() => val.filter((item, index) => item % 2 !== 0))
+          setVal(() =>
+            val.map((item, index) =>
+              item.name === "Shivam" ? { name: "Shivam", age: 55 } : item
+            )
+          )
         }
+        // onClick={() => setVal([...val, 10])}
+        // onClick={() =>
+        //   setVal(() => val.filter((item, index) => item % 2 !== 0))
+        // }
         // onClick={() => setVal(() => val.filter((item, index) => index != 2))}
         // onClick={() =>
         //   setVal(() => {

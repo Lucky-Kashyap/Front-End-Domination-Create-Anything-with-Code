@@ -869,6 +869,27 @@ Download :
           setVal(() => val.filter((item, index) => item % 2 !== 0))
         }
 
+- Arrays Addition
+
+      onClick={() => setVal([...val, 10])}
+
+- Change array of an object
+
+         const [val, setVal] = useState([
+
+            { name: "lucky", age: 23 },
+            { name: "Shivam", age: 34 },
+            { name: "golu", age: 25 },
+        ]);
+
+        onClick={() =>
+          setVal(() =>
+            val.map((item, index) =>
+              item.name === "Shivam" ? { name: "Shivam", age: 55 } : item
+            )
+          )
+        }
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.
