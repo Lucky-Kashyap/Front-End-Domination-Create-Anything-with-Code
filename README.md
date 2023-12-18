@@ -1357,6 +1357,25 @@ Download :
         };
       });
 
+#### Section 15 : useEffect() on State Change
+
+- Hook - useEffect() on state change
+
+- Refresh : Component Deletion + Component Updation
+
+- Update : Component Deletion + Component Creation
+
+         const [first, setFirst] = useState("This is normal data");
+         const [second, setSecond] = useState("This is very Large Data");
+
+          useEffect(() => {
+            console.log("SErvices Run");
+
+            return () => {
+              console.log("SErvice Destroyed");
+            };
+          }, [second]);
+
 - Call API When component is loaded using useEffect HOOk we call it.
 
         useEffect(() => {
