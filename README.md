@@ -1128,7 +1128,7 @@ Download :
         );
       };
 
-export default ReactForm;
+      export default ReactForm;
 
 #### Section 11 : Form Handling Exercise
 
@@ -1163,6 +1163,14 @@ export default ReactForm;
 - React Uses single page approach in application i.e. no page reload after page changes, for this we use react routing.
 
 - To move From one Page to another without reloading the website, so that website is called Web Application (for not reloading whole page).
+
+      npm i react-router-dom
+
+- Wrap Main Container main.jsx
+
+      <BrowserRouter>
+            <App/>
+      </BrowserRouter>
 
 # FrontEnd Domination
 
