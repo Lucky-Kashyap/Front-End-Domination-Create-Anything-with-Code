@@ -1172,6 +1172,24 @@ Download :
             <App/>
       </BrowserRouter>
 
+- Create Navbar
+
+       <nav>
+        <Link to="/">Home</Link>
+        <Link to="/user">User</Link>
+        <Link to="/about">Home</Link>
+        <Link to="/services">services</Link>
+      </nav>
+
+      // Implement Routing
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/user" element={<User />} />
+        <Route path="/services" element={<Services />} />
+      </Routes>
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.
