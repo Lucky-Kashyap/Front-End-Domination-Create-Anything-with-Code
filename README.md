@@ -1013,6 +1013,14 @@ Download :
           color:'red';
         }
 
+#### Section : 10 Form Handling
+
+- Form Handling
+- form basic nature or we can say default nature is to get submmitted but react says no page reload
+- website submit ho jaati hai form submit krne par.
+
+- How react handle things in Form
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.
