@@ -1134,6 +1134,16 @@ export default ReactForm;
 
 - Form Handle Exercise
 
+- App - Cards - Card - Form
+
+- Add form Data into Card component
+
+        const [users, setUsers] = useState([]);
+
+        const addFormData = (data) => {
+            setUsers([...users, data]);
+        };
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.
