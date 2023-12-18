@@ -1333,6 +1333,20 @@ Download :
 
         export default App;
 
+- Call API When component is loaded using useEffect HOOk we call it.
+
+        useEffect(() => {
+          const api = "https://fakestoreapi.com/products";
+
+          axios
+            .get(api)
+            .then((products) => {
+              // console.log(products);
+              setProducts(products.data);
+            })
+            .catch((err) => console.log(err.message));
+        }, []);
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.

@@ -1,9 +1,22 @@
 import axios from "axios";
 import "./App.css";
 import { useState } from "react";
+import { useEffect } from "react";
 
 function App() {
   const [products, setProducts] = useState([]);
+
+  useEffect(() => {
+    const api = "https://fakestoreapi.com/products";
+
+    axios
+      .get(api)
+      .then((products) => {
+        // console.log(products);
+        setProducts(products.data);
+      })
+      .catch((err) => console.log(err.message));
+  }, []);
 
   const getProducts = () => {
     const api = "https://fakestoreapi.com/products";
