@@ -20,16 +20,20 @@ const Navbar = () => {
       >
         Home
       </NavLink>
-      <NavLink
-        style={(e) => {
-          return {
-            color: e.isActive ? "tomato" : "",
-            fontWeight: e.isActive ? "bold" : "",
-          };
+      <NavLink to="/user">
+        {(e) => {
+          return (
+            <span
+              className={[
+                e.isActive ? "text-red-300" : "",
+                e.isActive ? "font-semibold text-xl" : "",
+              ].join(" ")}
+            >
+              User
+            </span>
+          );
         }}
-        to="/user"
-      >
-        User
+        {/* <span>User</span> */}
       </NavLink>
       <NavLink
         className={(e) => {

@@ -1235,6 +1235,24 @@ Download :
 
       </NavLink>
 
+- Inside Child Component
+
+      <NavLink to="/user">
+        {(e) => {
+          return (
+            <span
+              className={[
+                e.isActive ? "text-red-300" : "",
+                e.isActive ? "font-semibold text-xl" : "",
+              ].join(" ")}
+            >
+              User
+            </span>
+          );
+        }}
+        {/* <span>User</span> */}
+      </NavLink>
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.
