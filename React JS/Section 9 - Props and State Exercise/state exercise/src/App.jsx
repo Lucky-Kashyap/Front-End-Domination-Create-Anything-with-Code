@@ -54,6 +54,8 @@ function App() {
     },
   ];
 
+  const [songData, setSongData] = useState(data);
+
   // const [song, setSong] = useState(data);
   // const [favouritesCount, setFavouritesCount] = useState(0);
 
@@ -71,6 +73,18 @@ function App() {
   //   setFavouritesCount((prev) => prev + 1);
   // };
 
+  const handleClick = (index) => {
+    return setSongData((prev) => {
+      return prev.map((item, indx) => {
+        if (index === indx) {
+          return { ...item, favourites: !item.favourites };
+        }
+
+        return item;
+      });
+    });
+  };
+
   return (
     // <div className="p-10">
     //   <Header
@@ -86,16 +100,16 @@ function App() {
 
     <>
       <div className="w-full h-screen bg-zinc-300">
-        <Navbar />
+        <Navbar songData={songData} />
         <div className="px-20 flex flex-wrap gap-10 mt-10">
-          <Song />
-          <Song />
-          <Song />
-          <Song />
-          <Song />
-          <Song />
-          <Song />
-          <Song />
+          {songData.map((item, index) => (
+            <Song
+              key={index}
+              values={item}
+              index={index}
+              handleClick={handleClick}
+            />
+          ))}
         </div>
       </div>
     </>
