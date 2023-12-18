@@ -1199,6 +1199,23 @@ Download :
             // console.log("hey");
         };
 
+- Use NavLink to active & de-Activate class
+
+      <NavLink
+        style={(e) => {
+          console.log(e);
+        }}
+        to="/"
+      >
+        Home
+      </NavLink>
+
+- Change color
+
+      style={(e) => {
+          return { color: e.isActive ? "tomato" : "" };
+        }}
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.
