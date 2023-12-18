@@ -1253,6 +1253,18 @@ Download :
         {/* <span>User</span> */}
       </NavLink>
 
+### Section 14 : How to integrate API in REACT JS
+
+- The concept for connecting frontEnd With Backend is called AJAX (Asynchronous JavaScript XML) & which implements this communication is through fetch/axois.
+
+- API is an communication medium to build relation
+
+- API allow the communication with each other using requests and responses.
+
+- Using FETCH/AXIOS Method we can access third party API.
+
+- Connect frontEnd with Backend through an API
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.
