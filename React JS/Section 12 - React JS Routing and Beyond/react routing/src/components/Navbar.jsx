@@ -11,7 +11,10 @@ const Navbar = () => {
 
       <NavLink
         style={(e) => {
-          return { color: e.isActive ? "tomato" : "" };
+          return {
+            color: e.isActive ? "tomato" : "",
+            fontWeight: e.isActive ? "bold" : "",
+          };
         }}
         to="/"
       >
@@ -19,15 +22,21 @@ const Navbar = () => {
       </NavLink>
       <NavLink
         style={(e) => {
-          return { color: e.isActive ? "tomato" : "" };
+          return {
+            color: e.isActive ? "tomato" : "",
+            fontWeight: e.isActive ? "bold" : "",
+          };
         }}
         to="/user"
       >
         User
       </NavLink>
       <NavLink
-        style={(e) => {
-          return { color: e.isActive ? "tomato" : "" };
+        className={(e) => {
+          return [
+            e.isActive ? "text-red-300" : "",
+            e.isActive ? "font-semibold text-xl" : "",
+          ].join(" ");
         }}
         to="/about"
       >
@@ -35,7 +44,10 @@ const Navbar = () => {
       </NavLink>
       <NavLink
         style={(e) => {
-          return { color: e.isActive ? "tomato" : "" };
+          return {
+            color: e.isActive ? "tomato" : "",
+            fontWeight: e.isActive ? "bold" : "",
+          };
         }}
         to="/services"
       >

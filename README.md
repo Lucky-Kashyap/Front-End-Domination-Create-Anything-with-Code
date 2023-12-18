@@ -1210,11 +1210,30 @@ Download :
         Home
       </NavLink>
 
-- Change color
+- Change color three ways :
 
-      style={(e) => {
-          return { color: e.isActive ? "tomato" : "" };
+  - through style
+
+    style={(e) => {
+    return { color: e.isActive ? "tomato" : "" };
+    }}
+
+  - Through className :
+
+        <NavLink
+        className={(e) => {
+          return [
+            e.isActive ? "text-red-300" : "",
+            e.isActive ? "font-semibold text-xl" : "",
+          ].join(" ");
         }}
+        to="/about"
+
+        >
+
+        About
+
+      </NavLink>
 
 # FrontEnd Domination
 
