@@ -1020,6 +1020,49 @@ Download :
 - website submit ho jaati hai form submit krne par.
 
 - How react handle things in Form
+- React prevents Form Submission
+
+- use Ref - is trike mein hum har input ko select kar lete hai and unki value tab nikaalte hai jab form submit hota hai
+
+- use ref ke through html input ko select kar skte hai
+
+      const name = useRef(null);
+
+      const password = useRef(null);
+
+      const handleSubmit = (e) => {
+          e.preventDefault();
+          console.log(name.current.value,
+             password.current.value);
+
+      };
+
+- controlled components
+
+          const [username, setName] = useState({ name: "", age: "" });
+
+
+          const handleSubmit = (e) => {
+            e.preventDefault();
+
+            console.log(username);
+          };
+
+          <form action="" onSubmit={handleSubmit}>
+            <input
+              type="text"
+              placeholder="name"
+              onChange={(e) => setName({ ...username, name: e.target.value })}
+            />
+            <input
+              type="text"
+              placeholder="age"
+              onChange={(e) => setName({ ...username, age: e.target.value })}
+            />
+            <input type="submit" />
+          </form>
+
+- react hook form
 
 # FrontEnd Domination
 
