@@ -1,7 +1,4 @@
-import axios from "axios";
 import "./App.css";
-import { useState } from "react";
-import { useEffect } from "react";
 import { Link, Route, Routes } from "react-router-dom";
 import Home from "./component/Home";
 import Show from "./component/Show";

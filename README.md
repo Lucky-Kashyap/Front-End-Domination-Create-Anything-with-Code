@@ -1390,6 +1390,36 @@ Download :
             .catch((err) => console.log(err.message));
         }, []);
 
+- OutSourcing the Code
+
+- writing import axois from 'axios' causes sometimes problem & write this line in 10 20 30 40 .. components is lengthy & create issue for Us
+
+- While requesting to the API - the Header information, cookies,authorization,token, many things generated & for this we have to take of this to not to call an API when other component is added
+
+- Login - profile, timeline , chats enabled
+
+- Call one time & reference call everytime (create one time object).
+
+- Not call axios everytime.
+
+        import axios from "axios";
+
+        // export { axios };
+
+        const instance = axios.create({
+          baseURL: "https://fakestoreapi.com",
+        });
+
+        axios
+        .get("/users")
+        .then((users) => {
+          console.log(users);
+          // setProducts(users.address);
+        })
+        .catch((err) => console.log(err.message));
+
+export default instance;
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.
