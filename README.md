@@ -1150,6 +1150,12 @@ export default ReactForm;
 
         reset()
 
+- Remove Elements From Card
+
+        const handleRemove = (id) => {
+          setUsers(() => users.filter((item, index) => index != id));
+        };
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.

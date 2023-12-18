@@ -1,6 +1,6 @@
 import React from "react";
 
-const Card = ({ users }) => {
+const Card = ({ users, handleRemove, index }) => {
   const { name, email, image_url } = users;
 
   return (
@@ -17,7 +17,10 @@ const Card = ({ users }) => {
       <p className="mt-1 text-center text-xs leading-1 tracking-tight font-semibold">
         Lorem ipsum dolor sit amet consectetur.
       </p>
-      <button className="px-3 py-1 bg-red-400 text-xs rounded-lg font-semibold text-white mt-4">
+      <button
+        onClick={() => handleRemove(index)}
+        className="px-3 py-1 bg-red-400 text-xs rounded-lg font-semibold text-white mt-4"
+      >
         Remove it
       </button>
     </div>
