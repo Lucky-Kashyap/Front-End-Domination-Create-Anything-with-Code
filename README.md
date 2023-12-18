@@ -1190,6 +1190,15 @@ Download :
         <Route path="/services" element={<Services />} />
       </Routes>
 
+- Use navigate hook for back to particular route
+
+        const navigate = useNavigate();
+
+        const back = () => {
+            navigate("/");
+            // console.log("hey");
+        };
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.

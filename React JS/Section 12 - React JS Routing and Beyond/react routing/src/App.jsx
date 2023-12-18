@@ -8,10 +8,10 @@ import Services from "./components/Services";
 function App() {
   return (
     <div>
-      <nav>
+      <nav className="mt-10 flex justify-center gap-10">
         <Link to="/">Home</Link>
         <Link to="/user">User</Link>
-        <Link to="/about">Home</Link>
+        <Link to="/about">About</Link>
         <Link to="/services">services</Link>
       </nav>
 
