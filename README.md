@@ -1130,6 +1130,10 @@ Download :
 
 export default ReactForm;
 
+#### Section 11 : Form Handling Exercise
+
+- Form Handle Exercise
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.
