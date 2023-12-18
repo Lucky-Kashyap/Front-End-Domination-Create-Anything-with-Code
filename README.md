@@ -1156,6 +1156,14 @@ export default ReactForm;
           setUsers(() => users.filter((item, index) => index != id));
         };
 
+#### Section 12 : React JS Routing and Beyond
+
+- Configure react router to use react-routing
+
+- React Uses single page approach in application i.e. no page reload after page changes, for this we use react routing.
+
+- To move From one Page to another without reloading the website, so that website is called Web Application (for not reloading whole page).
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.
