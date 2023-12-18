@@ -1333,6 +1333,30 @@ Download :
 
         export default App;
 
+- LifeCycle Method name useEffect in functional Component:(Three Types of LifeCycle Methods)
+
+      - Component Mounting - creation
+      - Component Updating - updation (when useState is Changed or changes in view)
+      - Component UnMounting - deletion/destroy
+
+- Component Creation
+
+      useEffect(()=>{
+        console.log('Component Creation');
+
+        return ()=>{
+          console.log('Component Deletion From DOM');
+        }
+      })
+
+      useEffect(() => {
+        console.log("SErvices Run");
+
+        return () => {
+          console.log("SErvice Destroyed");
+        };
+      });
+
 - Call API When component is loaded using useEffect HOOk we call it.
 
         useEffect(() => {
