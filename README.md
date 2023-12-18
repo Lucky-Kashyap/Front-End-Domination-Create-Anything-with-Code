@@ -1001,6 +1001,18 @@ Download :
 
     </div>
 
+##### React Styled Componnets
+
+- CSS Modules - jismein aap kabhi kisi website ka code dekhte ho aur wha par aapko css classes ka naam bada aada teda dikhta hai
+
+- UI library- tailwind css, material UI,bootstrap,Chakra UI
+
+- create file style.module.css
+
+        .a{
+          color:'red';
+        }
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.
