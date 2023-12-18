@@ -1144,6 +1144,12 @@ export default ReactForm;
             setUsers([...users, data]);
         };
 
+- Reset Input Values
+
+        // provided by react-hook-form
+
+        reset()
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.
