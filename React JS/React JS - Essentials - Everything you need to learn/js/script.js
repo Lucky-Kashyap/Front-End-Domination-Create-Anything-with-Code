@@ -42,12 +42,50 @@
 
 // state = [1, 2]; // react mein ese krenge
 
-let arr = [1, 2, 3, 4];
+// let arr = [1, 2, 3, 4];
 
 // real copy
 
-let arr2 = [...arr];
+// let arr2 = [...arr];
 
-arr.pop();
+// arr.pop();
 
-console.log(arr, arr2);
+// console.log(arr, arr2);
+
+// let state = { name: "lucky", age: 23 };
+
+// let stateCopy = { ...state };
+
+// state.name = "HArsh";
+
+// stateCopy.age = 25;
+
+// state = stateCopy;
+
+// console.log(state, stateCopy);
+
+// let obj = { name: "lucky", age: 23 };
+
+// let { name, age } = obj;
+
+// console.log(name);
+// console.log(age);
+
+// let obj = {
+//   name: "string",
+//   social: {
+//     facebook: {
+//       first: "haaah",
+//       sec: "ahscasd",
+//     },
+//   },
+// };
+
+// let { name } = obj;
+
+// let arr = [12, function () {}];
+
+// let [first, sec] = arr;
+
+// console.log(first);
+// console.log(sec);

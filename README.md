@@ -653,6 +653,35 @@ Core Foundations of React JS: 'Essentials - Everything You Need to Learn'. Delve
 
         console.log(arr, arr2);
 
+
+        // object copy
+
+        let state = { name: "lucky", age: 23 };
+
+        let stateCopy = { ...state };
+
+        state.name = "HArsh";
+
+        console.log(state, stateCopy);
+
+- Object Destructuring
+
+      let obj = { name: "lucky", age: 23 };
+
+      let { name, age } = obj;
+
+      console.log(name);
+      console.log(age);
+
+- Array Destructuring
+
+        let arr = [12, function () {}];
+
+        let [first, sec] = arr;
+
+        console.log(first);
+        console.log(sec);
+
 ### Section 1: System Setup and Basics
 
 Extensions:
