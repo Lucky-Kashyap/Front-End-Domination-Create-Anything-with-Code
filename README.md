@@ -719,6 +719,42 @@ Core Foundations of React JS: 'Essentials - Everything You Need to Learn'. Delve
 
         console.log(value(20));
 
+- map filter
+
+- dono hi array pe chlte hai, aur dono kaa kaam hai array par kuchh perform krna hand "ek naya array return karna"
+
+      let arr = [1, 2, 3, 4, 5];
+
+- map - har element par kuch karo aur naye array mein rakho
+
+      let arr2 = arr.map((item) => item * 10);
+
+      console.log(arr2);
+
+      let state = [11, 22, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14];
+
+      let greaterFive = state.map((elem) => (elem > 5 ? elem + 5 : elem));
+
+      console.log(greaterFive);
+
+- map filter mein ek hi farak hai, map saare bande lautata hai matlab ki count kam nahi hoga, filter bando ko kam kar skta hai
+
+- ek array mein sabhi nums jo ki 5 se bade hai unmein 10 add kro
+
+- jab originl array ka size kam naa hona ho waha map use hota hai
+
+- jab original array ka size kam krna ho toh wha filter use hota hai
+
+- ek array mein se saare wo nums hata do jo ki 5 se chhote hai
+
+- filter
+
+      let arr = [1, 2, 3, 4, 5, 6];
+
+      let filterArr = arr.filter((elem) => elem > 5);
+
+      console.log(filterArr);
+
 ### Section 1: System Setup and Basics
 
 Extensions:
