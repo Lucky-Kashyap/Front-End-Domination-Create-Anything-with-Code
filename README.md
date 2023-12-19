@@ -641,6 +641,18 @@ Core Foundations of React JS: 'Essentials - Everything You Need to Learn'. Delve
 
 - map filter arrow fncs (implicit return) spread operator
 
+- Copy array using spread operator
+
+        let arr = [1, 2, 3, 4];
+
+        // real copy
+
+        let arr2 = [...arr];
+
+        arr.pop();
+
+        console.log(arr, arr2);
+
 ### Section 1: System Setup and Basics
 
 Extensions:
