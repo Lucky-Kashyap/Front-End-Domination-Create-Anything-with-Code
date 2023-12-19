@@ -89,3 +89,24 @@
 
 // console.log(first);
 // console.log(sec);
+
+// import export
+
+// hum log component banaate hai, component matlab page ka hissaa
+// navbar sidebar cart home landing page second page, ab dikkat yeh aati hai har hissa alag alag component hai aur components ko hum log alag alag files mein rakhte hai, to inko last mein jodna bhi padta hai, jodne ke liyein use hota hai import & export
+
+// navbar  - export
+
+// sidebar  - export
+
+// cart  - import navbar sidebar
+
+// main - import navbar
+
+// function Cart() {}
+
+// export default Cart;
+
+// export function Cart(){
+
+// }
