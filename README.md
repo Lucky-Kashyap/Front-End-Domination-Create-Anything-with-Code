@@ -1548,6 +1548,62 @@ Download :
 
 - Prop Drilling means sharing data between one component to another & another to another means parent to child to son
 
+- From Parent to Child Data Pass only .
+
+- Wrap Application via context
+
+- create context & create UserContext
+
+        import React, { createContext, useState } from "react";
+
+        export const UserContext = createContext();
+
+        const Context = (props) => {
+          // console.log(props);
+
+          const [users, setUser] = useState([
+            {
+              id: 0,
+              username: "John Doe",
+              city: "USA",
+            },
+            {
+              id: 1,
+              username: "Lucky",
+              city: "Delhi",
+            },
+            {
+              id: 2,
+              username: "Harsh",
+              city: "Bhopal",
+            },
+          ]);
+
+          return (
+            <>
+              <UserContext.Provider value={{ users, setUser }}>
+                {props.children}
+              </UserContext.Provider>
+            </>
+          );
+        };
+
+        export default Context;
+
+- use data via components
+
+        const { users, setUser } = useContext(UserContext);
+
+- use navigate hook for go back
+
+        const navigate= useNavigate();
+
+        // apply on go back button
+
+        const handleBack =()=>{
+          navigate('/user');
+        }
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.
