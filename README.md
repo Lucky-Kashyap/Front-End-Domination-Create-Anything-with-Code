@@ -707,6 +707,18 @@ Core Foundations of React JS: 'Essentials - Everything You Need to Learn'. Delve
         import Cart from "./script";
         import { Cart } from ".script.js";
 
+- arrow functions
+
+      let sum = (a, b) => a + b;
+
+      console.log(sum(10, 12));
+
+- impicit return
+
+        let value = val=>val+10;
+
+        console.log(value(20));
+
 ### Section 1: System Setup and Basics
 
 Extensions:
