@@ -1542,6 +1542,12 @@ Download :
 
         export default instance;
 
+#### Section 16 : React Context API
+
+- It solves Prop Drilling Problem
+
+- Prop Drilling means sharing data between one component to another & another to another means parent to child to son
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.
