@@ -633,6 +633,14 @@ jab websites par khhob sare change hote hai to khoob saara repaint hota hai wo b
 - when ever there is change in UI the DOM repaint or rerender things
 - This is not the case with virtual DOM or with React. React solves this problem of not repaint Those part which was not updated or changed only re render things which are updated.
 
+### React JS - Essentials - Everything you need to learn
+
+Core Foundations of React JS: 'Essentials - Everything You Need to Learn'. Delve into essential components, foundational concepts, and crucial skills required to master React JS in this comprehensive guide
+
+- array objects destructuring import and export
+
+- map filter arrow fncs (implicit return) spread operator
+
 ### Section 1: System Setup and Basics
 
 Extensions:
@@ -1418,7 +1426,7 @@ Download :
         })
         .catch((err) => console.log(err.message));
 
-export default instance;
+        export default instance;
 
 # FrontEnd Domination
 
