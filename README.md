@@ -1604,6 +1604,10 @@ Download :
           navigate('/user');
         }
 
+#### React JS: Project 1
+
+- Building Basic CRUD with ReactJS: Engage in a project integrating CRUD functionality and Context API. Learn to create, read, update, and delete operations within a ReactJS project using Context API for seamless data management.
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.
