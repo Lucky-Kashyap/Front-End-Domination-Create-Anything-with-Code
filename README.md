@@ -338,6 +338,42 @@ Embark on mastery! Join 'Introduction to JS Practice Like Hell Series' to dive i
 
 ![ezgif com-video-to-gif (9)](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/b18db4d6-4b20-4428-ba28-f919aa5253e8)
 
+### Real Life Developer Problems
+
+- Developer Problems: Problem 1
+
+  - DEVELOPER PROBLEMS
+
+  - Debugging a TypeError: Cannot read property 'X' of undefined:
+
+        let obj = {};
+
+        obj.name; // no error
+        obj.name.age;  // error
+
+        // Uncaught TypeError: Cannot read properties of undefined (reading 'age')
+
+  - Use optional chaining
+
+        obj?.name;
+        obj?.name?.age;
+
+- Developer Problems: Problem 2
+
+  - Working with Local Storage
+
+- Developer Problems: Problem 3
+
+  - Handling Asynchronous Operations
+
+- Developer Problems: Problem 4
+
+  - blocking scroll until something happens
+
+- Developer Problems: Problem 5
+
+  - custom tooltip
+
 ### GSAP, ScrollTrigger, Locomotive - Fun Stuff
 
 This introductory topic sets the stage for an exciting journey into advanced web animation techniques. GSAP (GreenSock Animation Platform), ScrollTrigger, Locomotive, and other tools are introduced as powerful resources for creating dynamic and engaging web animations.
