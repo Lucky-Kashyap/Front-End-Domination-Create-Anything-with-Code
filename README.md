@@ -362,6 +362,20 @@ Embark on mastery! Join 'Introduction to JS Practice Like Hell Series' to dive i
 
   - Working with Local Storage
 
+  - local Storage ek aisa space hai browser ke pass jismein tum data store kardo to data stored hi rehta hai, aap chaahe to browser band krdo, refresh krdo ya kuchh bhi karo aapka data stored rahega jab tak aap khud usey delete naa kar de
+
+  - local storage poore browser ka hota hai ya website ka, ls hota to browser ka part hai par data store ye website ke naam se karta hai
+
+        localStorage.setItem("name", "Lucky Kashyap");
+
+        localStorage.setItem("age", 23);
+
+        localStorage.setItem('block',true);
+
+  - web site open or not if block true or false
+
+  - ek button banao jisse aap user block kardo ab jab bhi wo website khole use screen par blocked dikhey, nahi to website show ho and ek button jisse wo unblock ho
+
 - Developer Problems: Problem 3
 
   - Handling Asynchronous Operations
