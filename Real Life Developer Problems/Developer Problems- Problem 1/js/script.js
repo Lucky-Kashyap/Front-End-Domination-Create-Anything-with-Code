@@ -2,7 +2,7 @@
 
 // Debugging a TypeError: Cannot read property 'X' of undefined:
 
-var obj = {};
+// var obj = {};
 
 // obj.name; // no errors
 
@@ -10,8 +10,8 @@ var obj = {};
 
 // optional chaining
 
-obj?.name;
-obj?.name?.age;
+// obj?.name;
+// obj?.name?.age;
 
 // Working with Local Storage
 // Handling Asynchronous Operations
