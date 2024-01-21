@@ -419,6 +419,10 @@ Embark on mastery! Join 'Introduction to JS Practice Like Hell Series' to dive i
 
   - blocking scroll until something happens
 
+        document.querySelector("#hide").addEventListener("click", () => {
+          document.body.classList.toggle("overflow-hidden");
+        });
+
 - Developer Problems: Problem 5
 
   - custom tooltip
