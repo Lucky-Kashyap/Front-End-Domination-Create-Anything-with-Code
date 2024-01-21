@@ -427,6 +427,14 @@ Embark on mastery! Join 'Introduction to JS Practice Like Hell Series' to dive i
 
   - custom tooltip
 
+            document.querySelector("#hide").addEventListener("mouseenter", () => {
+          document.querySelector(".tooltip").style.display = "initial";
+        });
+
+        document.querySelector("#hide").addEventListener("mouseleave", () => {
+          document.querySelector(".tooltip").style.display = "none";
+        });
+
 ### GSAP, ScrollTrigger, Locomotive - Fun Stuff
 
 This introductory topic sets the stage for an exciting journey into advanced web animation techniques. GSAP (GreenSock Animation Platform), ScrollTrigger, Locomotive, and other tools are introduced as powerful resources for creating dynamic and engaging web animations.
