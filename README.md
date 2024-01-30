@@ -265,7 +265,18 @@ Unlocking Asynchronous JavaScript: Navigate the world of async programming. Unde
 
 - ASYNC JS
 - setTimeout
+
+      setTimeout(() => {
+      console.log("Timeout runs !!!");
+
+  }, 1000);
+
 - setInterval
+
+      setInterval(() => {
+      console.log("Interval runs !!!");
+
+  }, 1000);
 
 - Fetch API
 
