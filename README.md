@@ -259,6 +259,30 @@ Master advanced JavaScript concepts in a single session! Dive into an intensive 
 
 -call apply bind
 
+### Asynchronous JavaScript
+
+Unlocking Asynchronous JavaScript: Navigate the world of async programming. Understand promises, async/await, and callbacks, mastering the art of handling asynchronous tasks in JavaScript.
+
+- ASYNC JS
+- setTimeout
+- setInterval
+
+- Fetch API
+
+- Axios (or other HTTP libraries)
+
+- callbacks
+
+- Promises
+
+- Async/Await
+- Event Loop
+- Callbacks vs Promises vs Async/Await
+- Generators
+- Error Handling in Asynchronous Code
+- Web Workers
+- AJAX
+
 ### JS Animations - DOM Functionality Adding Interactivity
 
 JavaScript animations are a dynamic way to bring life and interactivity to your web projects. This topic serves as your introduction to the world of JavaScript animations, explaining their importance and how they can enhance user experiences on your website.
