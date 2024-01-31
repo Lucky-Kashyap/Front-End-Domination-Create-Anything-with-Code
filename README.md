@@ -280,6 +280,10 @@ Unlocking Asynchronous JavaScript: Navigate the world of async programming. Unde
 
 - Fetch API
 
+      fetch("https://randomuser.me/api")
+      .then((data) => data.json())
+      .then((res) => console.log(res));
+
 - Axios (or other HTTP libraries)
 
 - callbacks
