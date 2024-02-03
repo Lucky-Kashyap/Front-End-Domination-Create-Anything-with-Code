@@ -286,6 +286,12 @@ Unlocking Asynchronous JavaScript: Navigate the world of async programming. Unde
 
 - Axios (or other HTTP libraries)
 
+  - use CDN for using axios
+
+        axios
+        .get("https://randomuser.me/api")
+        .then((res) => console.log(res.data.results[0]));
+
 - callbacks
 
 - Promises
