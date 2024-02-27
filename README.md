@@ -296,6 +296,24 @@ Unlocking Asynchronous JavaScript: Navigate the world of async programming. Unde
 
 - Promises
 
+      const promise1 = new Promise(function (resolve, reject) {
+        let a = 10;
+
+        if (a == 10) {
+          resolve("value match");
+        } else {
+          reject("value does not match");
+        }
+      });
+
+      promise1
+        .then((result) => {
+          console.log(result);
+        })
+        .catch((err) => {
+          console.log(err);
+        });
+
 - Async/Await
 - Event Loop
 - Callbacks vs Promises vs Async/Await

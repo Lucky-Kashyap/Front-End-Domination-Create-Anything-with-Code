@@ -50,6 +50,46 @@
 
 // yeh sabhi use hi tab kiye jate ha jab apko kuchh aisa karna ho jismein time lagega
 
+// const promise1 = new Promise(function (resolve, reject) {
+//   let a = "10";
+
+//   if (a === 10) {
+//     resolve("value match");
+//   } else {
+//     reject("value does not match");
+//   }
+// });
+
+// promise1
+//   .then((result) => {
+//     console.log(result);
+//   })
+//   .catch((err) => {
+//     console.log(err);
+//   });
+
+// const parchi = new Promise(function (resolve, reject) {
+// fetch(`https://randomuser.me/api`)
+//   .then((raw) => raw.json())
+//   .then((result) => console.log(result));
+
+// fetch(`https://randomuser.me/api`)
+//   .then((raw) => raw.json())
+//   .then((result) => {
+//     // console.log(result.results[0].gender);
+
+//       if (result.results[0].gender === "female") {
+//         resolve("Matched");
+//       } else {
+//         reject("Not Matched");
+//       }
+//     });
+// });
+
+// console.log(parchi);
+
+// parchi.then((res) => console.log(res)).catch((err) => console.log(err));
+
 // Async/Await
 // Event Loop
 // Callbacks vs Promises vs Async/Await
