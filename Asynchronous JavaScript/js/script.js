@@ -46,6 +46,43 @@
 
 // callbacks
 
+// callback kuchh khaas nhi balki sirf ek function hota hai,
+// bas thod special jo hai wo ye hai ki ise pass kiya jaata hai as an
+// argument jab particular async code chl jaayein
+
+// callback ek function hai jise pass kiya gaya ho kisi aur function mein aur jab wo function chle to aap us pass kiye gaye callback function ko chala paayege
+
+// function abcd(a,b)
+// {
+
+// }
+
+// abcd(1,function(){});
+
+// function abcd(a, b) {
+//   b();
+// }
+
+// abcd(1, function () {
+//   console.log("abcd runs");
+// });
+
+// function getData(url, callback) {
+//   fetch(url)
+//     .then((raw) => raw.json())
+//     .then((result) => {
+//       callback(result);
+//     });
+// }
+
+// getData(`https://randomuser.me/api`, function (result) {
+//   console.log(
+//     result.results[0].gender,
+//     result.results[0].email,
+//     result.results[0].name.first
+//   );
+// });
+
 // Promises - yeh janaab ke andar jo code likhoge wow apna kaam krega aur khud side stack mein chale jayenge us code ko lekar aur jab andar se code ke resolve kiya jayega tab ye chalenge
 
 // yeh sabhi use hi tab kiye jate ha jab apko kuchh aisa karna ho jismein time lagega

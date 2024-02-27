@@ -294,6 +294,14 @@ Unlocking Asynchronous JavaScript: Navigate the world of async programming. Unde
 
 - callbacks
 
+      function abcd(a, b) {
+        b();
+      }
+
+      abcd(1, function () {
+        console.log("abcd runs");
+      });
+
 - Promises
 
       const promise1 = new Promise(function (resolve, reject) {
