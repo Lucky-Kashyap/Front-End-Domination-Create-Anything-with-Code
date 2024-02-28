@@ -278,7 +278,7 @@ Unlocking Asynchronous JavaScript: Navigate the world of async programming. Unde
 
   }, 1000);
 
-- Fetch API
+- Fetch API (AJAX API request)
 
       fetch("https://randomuser.me/api")
       .then((data) => data.json())
@@ -323,12 +323,24 @@ Unlocking Asynchronous JavaScript: Navigate the world of async programming. Unde
         });
 
 - Async/Await
+
+      async function abcd() {
+        const data = await fetch(`https://randomuser.me/api`);
+
+        const result = await data.json();
+
+        console.log(result.results[0]);
+
+        console.log(result.results[0].name.first);
+      }
+
+      abcd();
+
 - Event Loop
 - Callbacks vs Promises vs Async/Await
 - Generators
 - Error Handling in Asynchronous Code
 - Web Workers
-- AJAX
 
 ### JS Animations - DOM Functionality Adding Interactivity
 
