@@ -336,10 +336,67 @@ Unlocking Asynchronous JavaScript: Navigate the world of async programming. Unde
 
       abcd();
 
-- Event Loop
+- Event Loop : It checks whether main stack is empty or not and perform asynchronous tasks according to it
+
+  #### These terms store aysnc task
+
+  - callback Queue
+  - Microtask Queue
+  - Web APIs
+
 - Callbacks vs Promises vs Async/Await
+
+  #### Question: https://randomuser.me/api is url se data lekar aao and usey console par show karo
+
+  - using callback
+
+        function dataFetch(url, callback) {
+          fetch(url)
+            .then((res) => res.json())
+            .then((result) => {
+              callback(result);
+            });
+        }
+
+        dataFetch(`https://randomuser.me/api`, function (data) {
+          console.log(data);
+        });
+
+  - using promises
+
+        function dataFetch(url) {
+          const data = new Promise((resolve, reject) => {
+            fetch(url)
+              .then((raw) => raw.json())
+              .then((res) => resolve(res));
+          });
+          return data;
+        }
+
+        dataFetch(`https://randomuser.me/api`).then((res) => console.log(res));
+
+  - using async await
+
+        async function dataFetch(url) {
+          const data = await fetch(url);
+
+          const result = await data.json();
+
+          return result;
+        }
+
+        async function dataPrint(url) {
+          const data = await dataFetch(url);
+
+          console.log(data);
+        }
+
+        dataPrint(`https://randomuser.me/api`);
+
 - Generators
-- Error Handling in Asynchronous Code
+
+- Error Handling in Asynchronous Code (try,catch,finally)
+
 - Web Workers
 
 ### JS Animations - DOM Functionality Adding Interactivity
