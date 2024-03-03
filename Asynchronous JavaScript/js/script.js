@@ -178,21 +178,21 @@
 
 // using async await
 
-async function dataFetch(url) {
-  const data = await fetch(url);
+// async function dataFetch(url) {
+//   const data = await fetch(url);
 
-  const result = await data.json();
+//   const result = await data.json();
 
-  return result;
-}
+//   return result;
+// }
 
-async function dataPrint(url) {
-  const data = await dataFetch(url);
+// async function dataPrint(url) {
+//   const data = await dataFetch(url);
 
-  console.log(data);
-}
+//   console.log(data);
+// }
 
-dataPrint(`https://randomuser.me/api`);
+// dataPrint(`https://randomuser.me/api`);
 
 // setTimeout(() => {
 //   dataFetch(`https://randomuser.me/api`);
@@ -200,5 +200,105 @@ dataPrint(`https://randomuser.me/api`);
 // });
 
 // Generators
-// Error Handling in Asynchronous Code
+
+// aap program ke flow ko pause kr skte ho (execution) and bol sakte ab agla step karo
+
+// function* printNum() {
+//   console.log("started");
+//   yield 1;
+//   console.log("pehle chl chuka hai");
+//   yield 2;
+//   console.log("dusra chl chuka");
+//   yield 3;
+//   console.log("chotha chl chuka");
+//   yield 4;
+// }
+
+// const ans = printNum();
+
+// console.log(ans.next().value);
+// console.log(ans.next().value);
+// console.log(ans.next().value);
+
+// ans.next();
+
+// ans.next().value;
+
+// ans.next().value;
+// ans.next().value;
+
+// question 1 - 10print
+
+// function* allNums() {
+//   for (let i = 1; i < 11; i++) {
+//     yield i;
+//   }
+// }
+
+// allNums().next();
+// console.log(allNums().next().value);
+
+// const gen = allNums();
+
+// console.log(gen.next());
+// console.log(gen.next());
+// console.log(gen.next());
+// console.log(gen.next());
+// console.log(gen.next());
+// console.log(gen.next());
+// console.log(gen.next());
+
+// prime numbers nikaalo with generator jab jab next bola jaaye tabji agla print ho
+
+// function printPrime(num) {
+//   let bool = false;
+
+//   for (let i = 2; i < num; i++) {
+//     if (i % 2 == 0) {
+//       bool = false;
+//       // break;
+//     } else {
+//       console.log(i);
+//     }
+//   }
+// }
+
+// printPrime(10);
+
+// function* primeGenerator() {
+//   let num = 2;
+//   while (true) {
+//     if (isPrime(num)) {
+//       yield num;
+//     }
+//     num++;
+//   }
+// }
+
+// function isPrime(n) {
+//   if (n <= 1) return false;
+//   if (n <= 3) return true;
+//   if (n % 2 === 0 || n % 3 === 0) return false;
+//   let i = 5;
+//   while (i * i <= n) {
+//     if (n % i === 0 || n % (i + 2) === 0) return false;
+//     i += 6;
+//   }
+//   return true;
+// }
+
+// const primeGen = primeGenerator();
+
+// console.log(primeGen.next().value);
+
+// console.log(primeGen.next().value);
+// console.log(primeGen.next().value);
+// console.log(primeGen.next().value);
+// console.log(primeGen.next().value);
+
+// for (let i = 0; i < 5; i++) {
+// Change this number to generate more prime numbers
+// console.log(primeGen.next().value);
+// }
+
 // Web Workers

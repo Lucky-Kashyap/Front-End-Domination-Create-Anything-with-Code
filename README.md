@@ -395,6 +395,41 @@ Unlocking Asynchronous JavaScript: Navigate the world of async programming. Unde
 
 - Generators
 
+      // aap program ke flow ko pause kr skte ho (execution) and bol sakte ab agla step karo
+
+      // function* printNum() {
+      //   console.log("started");
+      //   yield 1;
+      //   console.log("pehle chl chuka hai");
+      //   yield 2;
+      //   console.log("dusra chl chuka");
+      //   yield 3;
+      //   console.log("chotha chl chuka");
+      //   yield 4;
+      // }
+
+      // const ans = printNum();
+
+      // console.log(ans.next().value);
+      // console.log(ans.next().value);
+      // console.log(ans.next().value);
+
+  - question - 10print
+
+        function* allNums() {
+          for (let i = 1; i < 11; i++) {
+            yield i;
+          }
+        }
+
+        // allNums().next();
+        // console.log(allNums().next().value);
+
+        const gen = allNums();
+
+        console.log(gen.next());
+        console.log(gen.next());
+
 - Error Handling in Asynchronous Code (try,catch,finally)
 
 - Web Workers
