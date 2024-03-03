@@ -434,6 +434,39 @@ Unlocking Asynchronous JavaScript: Navigate the world of async programming. Unde
 
 - Web Workers
 
+  - usually humara code single thead par chlta hai par kai baar kuchh bade calculations perform karne pad jate hai jiski wajah se aapka main thread busy ho jaata hai yaa fir wo kaafi jaada loaded ho jaata hai aur aapke baki tasks ki performance kam ho jaati hai
+
+  - ap chaaho to apna koi task web worker ko bhej sakte ho jo ki doosre thread mein usko perform karega and aapka main thread efficiently baaki cheejo ko handle kar paayega
+
+  - aap apni main js file se data send kr skte ho and aap worker file data accept karoge and jo perform karna hai karoge and waha se data waapis main file bhejoge and main file main waapis accept kroge
+
+        // add numbers
+
+        const nums = Array.from({ length: 10000 }, (_, b) => b + 1);
+
+        const worker = new Worker("worker.js");
+
+        // data send
+
+        worker.postMessage(nums);
+
+        worker.onmessage = function (data) {
+          console.log(data.data);
+        };
+
+  - worker.js file
+
+        onmessage = function (data) {
+        // console.log(data.data);
+
+        const sum = data.data.reduce((acc, item) => item + acc, 0);
+
+        // console.log(sum);
+
+        postMessage(sum);
+
+    };
+
 ### JS Animations - DOM Functionality Adding Interactivity
 
 JavaScript animations are a dynamic way to bring life and interactivity to your web projects. This topic serves as your introduction to the world of JavaScript animations, explaining their importance and how they can enhance user experiences on your website.

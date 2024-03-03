@@ -302,3 +302,35 @@
 // }
 
 // Web Workers
+
+// thread aisa smjho ki ek computational task ko perform karne ke liyein ek thread alotted hota hai
+
+//  usually humara code single thead par chlta hai par kai baar kuchh bade calculations perform karne pad jate hai jiski wajah se aapka main thread busy ho jaata hai yaa fir wo kaafi jaada loaded ho jaata hai aur aapke baki tasks ki performance kam ho jaati hai
+
+// ap chaaho to apna koi task web worker ko bhej sakte ho jo ki doosre thread mein usko perform karega and aapka main thread efficiently baaki cheejo ko handle kar paayega
+
+// aap apni main js file se data send kr skte ho and aap worker file data accept karoge and jo perform karna hai karoge and waha se data waapis main file bhejoge and main file main waapis accept kroge
+
+// add numbers
+
+const nums = Array.from({ length: 10000 }, (_, b) => b + 1);
+
+const worker = new Worker("worker.js");
+
+// data send
+
+worker.postMessage(nums);
+
+worker.onmessage = function (data) {
+  console.log(data.data);
+};
+
+// console.log(nums);
+
+// const worker = new Worker("worker.js");
+
+// worker.postMessage("Hello Worker!");
+
+// worker.onmessage = function (event) {
+//   console.log("Message from worker:", event.data);
+// };
