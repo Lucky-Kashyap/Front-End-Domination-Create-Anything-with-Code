@@ -1913,6 +1913,28 @@ Download :
 
 - Building Basic CRUD with ReactJS: Engage in a project integrating CRUD functionality and Context API. Learn to create, read, update, and delete operations within a ReactJS project using Context API for seamless data management.
 
+#### React JS: Project - Refokus Clone
+
+- Replicating Refokus: Dive into 'ReactJS: Project 2 Refokus Clone' and explore the creation of a Refokus-like project using ReactJS. Apply your skills to build a similar platform, honing your abilities in the process.
+
+##### Component Structure:
+
+- App
+
+  - Navbar
+    - button component
+  - Work
+  - Stripes
+
+    - Stripe
+
+  - Products
+    - Product
+  - Marquee
+  - Blocks
+    - Block
+  - Footer
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.
