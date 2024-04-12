@@ -1,7 +1,9 @@
+import Navbar from "./components/Navbar";
+
 function App() {
   return (
-    <div>
-      <h2 className="text-4xl font-semibold">App</h2>
+    <div className="w-screen h-screen bg-zinc-900 text-white">
+      <Navbar />
     </div>
   );
 }

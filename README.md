@@ -1935,6 +1935,8 @@ Download :
     - Block
   - Footer
 
+  ### Design Navbar :
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.
