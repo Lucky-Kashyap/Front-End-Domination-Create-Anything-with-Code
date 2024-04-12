@@ -1937,6 +1937,9 @@ Download :
 
   ### Design Navbar :
 
+  ![screencapture-localhost-5173-2024-04-12-23_02_32](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/564c6d0d-fb1c-468e-bf05-ed5c3edffdf0)
+
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.
