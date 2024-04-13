@@ -40,7 +40,7 @@ const Work = () => {
     },
   ];
   return (
-    <div className="w-full">
+    <div className="w-full mt-20">
       <div className="relative max-w-screen-xl mx-auto text-center">
         <h1 className="text-[30vw] leading-none font-medium select-none tracking-tight">
           work
@@ -59,6 +59,10 @@ const Work = () => {
             )
         )}
       </div>
+
+      <p className="text-center py-4 font-normal text-lg text-[#919191]">
+        Web Design, Webflow Development, Creative Development
+      </p>
     </div>
   );
 };
