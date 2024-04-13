@@ -1941,6 +1941,9 @@ Download :
 
   ### Stripes Component :
 
+  ![screencapture-localhost-5173-2024-04-13-22_19_50](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/12accfe6-3eef-4328-836a-cf131ecd945a)
+
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.
