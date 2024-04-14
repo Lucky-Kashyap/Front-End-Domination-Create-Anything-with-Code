@@ -1949,6 +1949,11 @@ Download :
 
   ### Marquees Component :
 
+  ![Capture](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/f0043705-32c3-46c1-8d46-a4a96160415d)
+
+
+  
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.
