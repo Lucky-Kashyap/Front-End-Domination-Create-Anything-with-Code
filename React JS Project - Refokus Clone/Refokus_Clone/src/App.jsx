@@ -1,3 +1,4 @@
+import Marquees from "./components/Marquees";
 import Navbar from "./components/Navbar";
 import Products from "./components/Products";
 import Stripes from "./components/Stripes";
@@ -10,6 +11,7 @@ function App() {
       <Work />
       <Stripes />
       <Products />
+      <Marquees />
     </div>
   );
 }
