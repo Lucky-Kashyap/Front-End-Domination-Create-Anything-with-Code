@@ -1957,7 +1957,13 @@ Download :
 
   ### Footer Component :
 
+  ![foo](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/c7a44e91-6292-48b6-b9e4-b010f3e87821)
+
+
 ## Refokus UI :
+
+![screencapture-localhost-5173-2024-04-14-15_33_50](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/4974dd27-1cac-47f4-b54e-7c3b752dfd4a)
+
 
 # FrontEnd Domination
 
