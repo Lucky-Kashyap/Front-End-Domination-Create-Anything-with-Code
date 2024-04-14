@@ -13,10 +13,11 @@ const Navbar = () => {
         <div className="flex gap-12 ml-24">
           {["Home", "Work", "Culture", "", "News"].map((elem, index) =>
             elem.length === 0 ? (
-              <span className="w-[1px] h-7 bg-zinc-700"></span>
+              <span className="w-[1px] h-7 bg-zinc-700" key={index}></span>
             ) : (
               <a
                 href="#"
+                key={index}
                 className="font-regular text-sm flex items-center gap-1"
               >
                 {index === 1 && (

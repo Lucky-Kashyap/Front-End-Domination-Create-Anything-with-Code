@@ -13,7 +13,11 @@ const Footer = () => {
           <div className="basis-1/3">
             <h4 className="mb-8 text-zinc-500 capitalize">socials</h4>
             {["instagram", "twitter (x?)", "Linkedin"].map((item, index) => (
-              <a href="#" className="mt-2 capitalize block text-zinc-600">
+              <a
+                href="#"
+                key={index}
+                className="mt-2 capitalize block text-zinc-600"
+              >
                 {item}
               </a>
             ))}
@@ -21,7 +25,11 @@ const Footer = () => {
           <div className="basis-1/3">
             <h4 className="mb-8 text-zinc-500 capitalize">socials</h4>
             {["instagram", "twitter (x?)", "Linkedin"].map((item, index) => (
-              <a href="#" className="mt-2 capitalize block text-zinc-600">
+              <a
+                href="#"
+                key={index}
+                className="mt-2 capitalize block text-zinc-600"
+              >
                 {item}
               </a>
             ))}
@@ -42,7 +50,11 @@ const Footer = () => {
       <div className="max-w-screen-xl mx-auto flex gap-5">
         {["Privacy Policy", "Cookie Policy", "Impressum", "Terms"].map(
           (item, index) => (
-            <a href="#" className="text-zinc-600 font-normal text-sm">
+            <a
+              href="#"
+              key={index}
+              className="text-zinc-600 font-normal text-sm"
+            >
               {item}
             </a>
           )

@@ -53,6 +53,7 @@ const Work = () => {
               <img
                 className="absolute w-60 rounded-lg -translate-x-[50%] -translate-y-[50%]"
                 src={elem.url}
+                key={index}
                 style={{ top: elem.top, left: elem.left }}
                 alt="work"
               />
