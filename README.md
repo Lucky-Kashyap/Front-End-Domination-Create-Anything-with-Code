@@ -1953,6 +1953,9 @@ Download :
 
   ### Cards Component :
 
+  ![screencapture-localhost-5173-2024-04-14-14_55_48](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/c8f4342e-6330-480f-b715-5e08c8ccbf35)
+
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.
