@@ -1951,8 +1951,7 @@ Download :
 
   ![Capture](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/f0043705-32c3-46c1-8d46-a4a96160415d)
 
-
-  
+  ### Cards Component :
 
 # FrontEnd Domination
 
