@@ -17,7 +17,7 @@ const Cards = () => {
           width={"basis-2/3"}
           start={true}
           para={false}
-          hover={"bg-violet-600"}
+          hover="true"
           heading="Get In Touch"
           text="Let's get to it, together"
         />

@@ -168,23 +168,26 @@ const Products = () => {
           transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.6 }}
           className="absolute w-[32rem] h-[23rem] bg-white left-[44%] overflow-hidden"
         >
-          {products.map((_, index) => (
-            <motion.div
-              key={index}
-              animate={{ y: -pos + "rem", opacity: 1 }}
-              className="w-full h-full"
-              transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.5 }}
-              initial={{ opacity: 0 }}
-            >
-              <video width="100%" height="100%">
-                <source
-                  src="../assets/webflow-education-promo.mp4"
-                  type="video/mp4"
-                />
-                Your browser does not support the video tag.
-              </video>
-            </motion.div>
-          ))}
+          <motion.div
+            animate={{ y: -pos + "rem" }}
+            className="w-full h-full bg-sky-200"
+            transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.5 }}
+          ></motion.div>
+          <motion.div
+            animate={{ y: -pos + "rem" }}
+            className="w-full h-full bg-sky-300"
+            transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.5 }}
+          ></motion.div>
+          <motion.div
+            animate={{ y: -pos + "rem" }}
+            className="w-full h-full bg-sky-400"
+            transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.5 }}
+          ></motion.div>
+          <motion.div
+            animate={{ y: -pos + "rem" }}
+            className="w-full h-full bg-sky-500"
+            transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.5 }}
+          ></motion.div>
         </motion.div>
       </div>
     </div>
