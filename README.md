@@ -1978,6 +1978,48 @@ Download :
 
 - Essential Redux Insights: Gain a comprehensive understanding of Redux. This guide covers everything you need to know about Redux, offering key insights into state management for robust React applications.
 
+#### GSAP X Reactjs
+
+##### Introduction and Setup: GSAP X React.js for Stunning Animations
+
+- Install neccessary packages
+
+      npm i gsap
+      npm i @gsap/react
+
+- Two ways to create GSAP Animation
+
+  - useRef()
+  - useGSAP(()=>{
+    gsap.to(selector,{}) })
+
+- using useRef:
+
+      const boxRef = useRef();
+
+      useGSAP(() => {
+          gsap.to(boxRef.current, {
+            x: 600,
+            y: 200,
+          });
+      });
+
+      <div ref={boxRef} className="box"></div>
+      <div className="box box1"></div>
+      <div className="box box2"></div>
+
+- Using normal useGSAP & pass selector
+
+      useGSAP(() => {
+        gsap.to(".box", {
+          x: 1000,
+          delay: 1,
+          duration: 2,
+          rotate: 360,
+          backgroundColor: "blue",
+        });
+      });
+
 # FrontEnd Domination
 
 Embarking on a journey to become a proficient frontend developer is an exciting and rewarding endeavor.
