@@ -1978,6 +1978,10 @@ Download :
 
 - Essential Redux Insights: Gain a comprehensive understanding of Redux. This guide covers everything you need to know about Redux, offering key insights into state management for robust React applications.
 
+## ExoApe - Let's Build it: [[https://www.exoape.com/]]
+
+- UI project with scrolling animations
+
 #### GSAP X Reactjs
 
 ##### Introduction and Setup: GSAP X React.js for Stunning Animations
