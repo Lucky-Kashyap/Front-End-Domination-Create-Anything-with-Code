@@ -1,9 +1,9 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-}
+} */
 
 .logo {
   height: 6em;
@@ -39,4 +39,26 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.parent {
+  height: 100vh;
+  padding: 2vw;
+  background-color: #000;
+}
+
+main {
+  height: 100vh;
+  background-color: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8vw;
+  padding: 4vw;
+}
+.container1,
+.container2 {
+  border: 3px solid #fff;
+  padding: 1vw;
+  border-radius: 0.8vw;
 }

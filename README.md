@@ -2028,7 +2028,40 @@ Download :
 
 ![ViteReact-GoogleChrome2024-06-1512-58-10-ezgif com-video-to-gif-converter](https://github.com/Lucky-Kashyap/Front-End-Domination-Create-Anything-with-Code/assets/88204554/439d2bca-634e-4252-8a48-3a8046354b40)
 
+##### GSAP Timeline: Animate Like a Pro
 
+- define timeline
+
+  const tl = gsap.timeline();
+  useGSAP(() => {
+
+        tl.to(boxRef.current, {
+          x: 1200,
+          rotate: 360,
+          borderRadius: "50%",
+          duration: 2,
+          delay: 1,
+        });
+        tl.to(circleRef.current, {
+          x: 1200,
+          rotate: 360,
+          borderRadius: "10px",
+          duration: 2,
+        });
+      });
+
+        useGSAP(
+            () => {
+              gsap.to(".box", {
+                rotate: 360,
+                duration: 1.5,
+                delay: 1,
+              });
+            },
+            { scope: ".container1" }
+          );
+
+##### IMAGE PREVIEW:
 
 # FrontEnd Domination
 

@@ -8,22 +8,42 @@
 html,
 body {
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 body {
   background-color: aliceblue;
 }
 
-.box {
+/* .box {
   width: 300px;
   height: 300px;
   background-color: crimson;
   border-radius: 1vw;
   margin-bottom: 1vw;
-}
-.box1 {
+} */
+/* .box1 {
   background-color: olivedrab;
 }
 .box2 {
   background-color: goldenrod;
+} */
+
+.box {
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(
+    to right bottom,
+    rgb(250, 88, 121),
+    rgb(226, 9, 52)
+  );
+  border-radius: 1vw;
+
+  margin-bottom: 1vw;
+}
+.circle {
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(to right bottom, lightblue, cadetblue);
+  border-radius: 50%;
+  margin-bottom: 1vw;
 }
