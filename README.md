@@ -2032,8 +2032,8 @@ Download :
 
 - define timeline
 
-  const tl = gsap.timeline();
-  useGSAP(() => {
+      const tl = gsap.timeline();
+      useGSAP(() => {
 
         tl.to(boxRef.current, {
           x: 1200,
@@ -2062,6 +2062,10 @@ Download :
           );
 
 ##### IMAGE PREVIEW:
+
+![ViteReact-GoogleChrome2024-09-1021-51-51-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/4b53a7ab-2df2-451a-ad7e-7ae62538f2ce)
+![ViteReact-GoogleChrome2024-09-1022-01-53-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/283a2310-7ea8-47df-abd4-cbbaf9a78291)
+
 
 # FrontEnd Domination
 
